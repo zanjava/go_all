@@ -39,7 +39,7 @@ func scheduleTask() {
 	if err != nil {
 		if err == ErrNotPermitted {
 			// if errors.Is(err, ErrNotPermitted) {  //errors.Is和==并不等价
-			err = deleteDir(dir) //重试，或者通过其他途径完成工作
+			err = deleteDir(dir) //2.重试，或者3.通过其他途径完成工作(降级)  1.打印错误信息
 		}
 		if err != nil {
 			fmt.Printf("删除dir %s 失败 %s\n", dir, err)
