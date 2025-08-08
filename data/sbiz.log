@@ -1,0 +1,6 @@
+{"time":"2025-08-08T15:58:55.5346998+08:00","level":"INFO","source":{"function":"go/base/io.SLog","file":"d:/go_all/go_base/io/48_log.go","line":76},"msg":"加法运算","a":3,"b":4,"sum":7}
+{"time":"2025-08-08T15:58:55.5421779+08:00","level":"ERROR","source":{"function":"go/base/io.SLog","file":"d:/go_all/go_base/io/48_log.go","line":77},"msg":"Hello 大乔乔"}
+{"time":"2025-08-08T15:58:55.5421779+08:00","level":"INFO","source":{"function":"go/base/io.SLog","file":"d:/go_all/go_base/io/48_log.go","line":81},"msg":"welcome"}
+{"time":"2025-08-08 16:00:58.237","level":"INFO","source":{"function":"go/base/io.SLog","file":"d:/go_all/go_base/io/48_log.go","line":76},"msg":"加法运算","a":3,"b":4,"sum":7}
+{"time":"2025-08-08 16:00:58.247","level":"ERROR","source":{"function":"go/base/io.SLog","file":"d:/go_all/go_base/io/48_log.go","line":77},"msg":"Hello 大乔乔"}
+{"time":"2025-08-08 16:00:58.247","level":"INFO","source":{"function":"go/base/io.SLog","file":"d:/go_all/go_base/io/48_log.go","line":81},"msg":"welcome","user":"张朝阳","age":18}
