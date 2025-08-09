@@ -1,0 +1,11 @@
+1.  加载驱动
+
+_ "github.com/go-sql-driver/mysql" //init()
+
+2. 通过sql.open,建立连接 ,获取sql.DB  
+
+db, err = sql.Open("mysql", "tester:123456@tcp(localhost:3306)/test?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai")
+
+3.操作数据
+
+curd  联合查询  分页查询  
