@@ -1,0 +1,2 @@
+INFO	hello	{"biz": "search", "zgw": {"group": "game", "age": 18}}
+ERROR	hello	{"biz": "search", "zgw": {"group": "game", "china": {"age": 18}}}
