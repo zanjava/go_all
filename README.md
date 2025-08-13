@@ -21,3 +21,5 @@ go_frame+++++++++++++++++++++++++++++++++++++++++++++++++++
 io---日志框架 性能 zap>slog>logrus   选择上slog,简单不需依赖更多第3方库   viper解析配置文件,可以动态监听文件变化
 
 database---redis mongodb clickhouse
+
+orm-----orm框架gorm xorm 
