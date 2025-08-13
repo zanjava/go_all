@@ -25,4 +25,4 @@ CREATE TABLE if not exists `student` (
 CREATE TABLE if not exists `login` (
   `username` varchar(100) DEFAULT NULL,
   `password` varchar(100) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='登录信息表';

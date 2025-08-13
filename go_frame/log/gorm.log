@@ -1,0 +1,231 @@
+
+2025/08/13 16:11:07 d:/go_all/go_frame/orm/gorm/3_create.go:77
+[info] exec hook BeforeSave
+
+2025/08/13 16:11:07 d:/go_all/go_frame/orm/gorm/3_create.go:82
+[info] exec hook BeforeCreate
+
+2025/08/13 16:11:07 d:/go_all/go_frame/orm/gorm/3_create.go:16 Error 1054 (42S22): Unknown column 'create_time' in 'field list'
+[8.639ms] [rows:0] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`,`version`) VALUES (10691,'本科','["编程","golang"]','2025-08-13 16:11:07.547','2025-08-13 16:11:07.547','男','上海',0)
+
+2025/08/13 16:11:07 d:/go_all/go_frame/orm/gorm/3_create.go:34 Error 1054 (42S22): Unknown column 'create_time' in 'field list'
+[0.507ms] [rows:0] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`,`version`) VALUES (92357,'本科','["编程","golang"]','2025-08-13 16:11:07.547','2025-08-13 16:11:07.547','男','上海',0),(81247,'本科','["编程","golang"]','2025-08-13 16:11:07.547','2025-08-13 16:11:07.547','男','上海',0)
+
+2025/08/13 16:11:07 d:/go_all/go_frame/orm/gorm/3_create.go:77
+[info] exec hook BeforeSave
+
+2025/08/13 16:11:07 d:/go_all/go_frame/orm/gorm/3_create.go:82
+[info] exec hook BeforeCreate
+
+2025/08/13 16:11:07 d:/go_all/go_frame/orm/gorm/3_create.go:44 Error 1054 (42S22): Unknown column 'create_time' in 'field list'
+[0.000ms] [rows:0] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`,`version`) VALUES (98237,'本科','["编程","golang"]','2025-08-13 16:11:07.547','2025-08-13 16:11:07.547','男','上海',0)
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:77
+[info] exec hook BeforeSave
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:82
+[info] exec hook BeforeCreate
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:87
+[info] exec hook AfterCreate
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:92
+[info] exec hook AfterSave
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:16
+[15.647ms] [rows:1] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`) VALUES (24189,'本科','["编程","golang"]','2025-08-13 16:14:44.362','2025-08-13 16:14:44.362','男','上海')
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:34
+[3.355ms] [rows:2] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`) VALUES (37507,'本科','["编程","golang"]','2025-08-13 16:14:44.362','2025-08-13 16:14:44.362','男','上海'),(31736,'本科','["编程","golang"]','2025-08-13 16:14:44.362','2025-08-13 16:14:44.362','男','上海')
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:77
+[info] exec hook BeforeSave
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:82
+[info] exec hook BeforeCreate
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:87
+[info] exec hook AfterCreate
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:92
+[info] exec hook AfterSave
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:44
+[0.501ms] [rows:1] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`) VALUES (40098,'本科','["编程","golang"]','2025-08-13 16:14:44.362','2025-08-13 16:14:44.362','男','上海')
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:77
+[info] exec hook BeforeSave
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:82
+[info] exec hook BeforeCreate
+
+2025/08/13 16:14:44 d:/go_all/go_frame/orm/gorm/3_create.go:44 Error 1062 (23000): Duplicate entry '40098' for key 'user.idx_uid'
+[1.608ms] [rows:0] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`) VALUES (40098,'本科','["编程","golang"]','2025-08-13 16:14:44.362','2025-08-13 16:14:44.362','男','上海')
+
+2025/08/13 16:24:29 d:/go_all/go_frame/orm/gorm/3_create.go:50 Error 1364 (HY000): Field 'create_time' doesn't have a default value
+[2.637ms] [rows:0] INSERT INTO `user` (`city`,`degree`,`gender`,`uid`) VALUES ('上海','本科','男',82941)
+
+2025/08/13 16:24:29 d:/go_all/go_frame/orm/gorm/3_create.go:55 Error 1364 (HY000): Field 'create_time' doesn't have a default value
+[0.518ms] [rows:0] INSERT INTO `user` (`city`,`degree`,`gender`,`uid`) VALUES ('北京','本科','男',7028),('深圳','本科','男',13466)
+
+2025/08/13 16:29:29 d:/go_all/go_frame/orm/gorm/3_create.go:51 Error 1241 (21000): Operand should contain 1 column(s)
+[2.001ms] [rows:0] INSERT INTO `user` (`city`,`create_time`,`degree`,`gender`,`keywords`,`uid`,`update_time`) VALUES ('上海','2025-08-13 16:29:29.661','本科','男',('编程','golang'),93231,'2025-08-13 16:29:29.661')
+
+2025/08/13 16:29:29 d:/go_all/go_frame/orm/gorm/3_create.go:57
+[3.135ms] [rows:2] INSERT INTO `user` (`city`,`create_time`,`degree`,`gender`,`uid`,`update_time`) VALUES ('北京','2025-08-13 16:29:29.67','本科','男',74306,'2025-08-13 16:29:29.67'),('深圳','2025-08-13 16:29:29.67','本科','男',96091,'2025-08-13 16:29:29.67')
+
+2025/08/13 16:35:06 d:/go_all/go_frame/orm/gorm/3_create.go:79
+[info] exec hook BeforeSave
+
+2025/08/13 16:35:06 d:/go_all/go_frame/orm/gorm/3_create.go:84
+[info] exec hook BeforeCreate
+
+2025/08/13 16:35:06 d:/go_all/go_frame/orm/gorm/3_create.go:89
+[info] exec hook AfterCreate
+
+2025/08/13 16:35:06 d:/go_all/go_frame/orm/gorm/3_create.go:94
+[info] exec hook AfterSave
+
+2025/08/13 16:35:06 d:/go_all/go_frame/orm/gorm/5_update.go:13
+[12.599ms] [rows:1] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`) VALUES (84288,'本科',NULL,'2025-08-13 16:35:06.756','2025-08-13 16:35:06.756','男','上海')
+
+2025/08/13 16:35:06 d:/go_all/go_frame/orm/gorm/5_update.go:16
+[0.618ms] [rows:1] SELECT * FROM `user` ORDER BY `user`.`id` DESC LIMIT 1
+
+2025/08/13 16:35:06 d:/go_all/go_frame/orm/gorm/3_create.go:79
+[info] exec hook BeforeSave
+
+2025/08/13 16:35:06 d:/go_all/go_frame/orm/gorm/3_create.go:94
+[info] exec hook AfterSave
+
+2025/08/13 16:35:06 d:/go_all/go_frame/orm/gorm/5_update.go:18
+[2.392ms] [rows:1] UPDATE `user` SET `uid`=84288,`degree`='硕士',`keywords`=NULL,`create_time`='2025-08-13 16:35:07',`update_time`='2025-08-13 16:35:06.761',`gender`='男',`city`='上海' WHERE `id` = 8
+
+2025/08/13 16:37:12 d:/go_all/go_frame/orm/gorm/3_create.go:79
+[info] exec hook BeforeSave
+
+2025/08/13 16:37:12 d:/go_all/go_frame/orm/gorm/3_create.go:94
+[info] exec hook AfterSave
+
+2025/08/13 16:37:12 d:/go_all/go_frame/orm/gorm/5_update.go:25
+[12.977ms] [rows:1] UPDATE `user` SET `degree`='硕士',`gender`='男',`update_time`='2025-08-13 16:37:12.698' WHERE city='北京'
+
+2025/08/13 16:37:12 d:/go_all/go_frame/orm/gorm/3_create.go:79
+[info] exec hook BeforeSave
+
+2025/08/13 16:37:12 d:/go_all/go_frame/orm/gorm/5_update.go:32 Error 1062 (23000): Duplicate entry '1' for key 'user.PRIMARY'
+[2.171ms] [rows:0] UPDATE `user` SET `id`=1,`degree`='本科',`update_time`='2025-08-13 16:37:12.703',`gender`='男' WHERE city='北京'
+
+2025/08/13 16:39:25 d:/go_all/go_frame/orm/gorm/3_create.go:79
+[info] exec hook BeforeSave
+
+2025/08/13 16:39:25 d:/go_all/go_frame/orm/gorm/3_create.go:94
+[info] exec hook AfterSave
+
+2025/08/13 16:39:25 d:/go_all/go_frame/orm/gorm/5_update.go:25
+[15.072ms] [rows:1] UPDATE `user` SET `degree`='硕士',`gender`='男',`update_time`='2025-08-13 16:39:25.234' WHERE city='北京'
+
+2025/08/13 16:39:25 d:/go_all/go_frame/orm/gorm/3_create.go:79
+[info] exec hook BeforeSave
+
+2025/08/13 16:39:25 d:/go_all/go_frame/orm/gorm/5_update.go:32 Error 1062 (23000): Duplicate entry '1' for key 'user.PRIMARY'
+[3.127ms] [rows:0] UPDATE `user` SET `id`=1,`degree`='本科',`update_time`='2025-08-13 16:39:25.239',`gender`='男' WHERE city='北京'
+
+2025/08/13 16:39:44 d:/go_all/go_frame/orm/gorm/4_delete.go:10
+[4.482ms] [rows:1] DELETE FROM `user` WHERE degree='专科'
+
+2025/08/13 16:39:44 d:/go_all/go_frame/orm/gorm/4_delete.go:14
+[1.601ms] [rows:0] DELETE FROM `user` WHERE `user`.`id` = 10
+
+2025/08/13 16:39:44 d:/go_all/go_frame/orm/gorm/4_delete.go:16
+[2.627ms] [rows:1] DELETE FROM `user` WHERE `user`.`id` = 1
+
+2025/08/13 16:39:44 d:/go_all/go_frame/orm/gorm/4_delete.go:17
+[2.745ms] [rows:2] DELETE FROM `user` WHERE `user`.`id` IN (1,2,3)
+
+2025/08/13 16:43:01 d:/go_all/go_frame/orm/gorm/6_query.go:25
+[1.502ms] [rows:0] SELECT uid,city,gender,keywords FROM `user` WHERE (uid>100 and degree='大专') AND city in (?,?) AND degree like ? OR gender=? AND `user`.`id` = ? ORDER BY id desc, uid,city,`user`.`id` LIMIT ? OFFSET ?
+
+2025/08/13 16:43:01 d:/go_all/go_frame/orm/gorm/6_query.go:52
+[0.499ms] [rows:1] SELECT * FROM `user`
+
+2025/08/13 16:43:01 d:/go_all/go_frame/orm/gorm/6_query.go:68
+[0.499ms] [rows:2] SELECT * FROM `user` LIMIT ?
+
+2025/08/13 16:43:01 d:/go_all/go_frame/orm/gorm/6_query.go:87
+[0.497ms] [rows:0] SELECT * FROM `user` WHERE `user`.`id` = ?
+
+2025/08/13 16:43:01 d:/go_all/go_frame/orm/gorm/6_query.go:105
+[0.497ms] [rows:2] SELECT * FROM `user` USE INDEX (`id`,`idx_uid`) WHERE uid>0
+
+2025/08/13 16:43:01 d:/go_all/go_frame/orm/gorm/6_query.go:109
+[0.501ms] [rows:2] SELECT * FROM `user` FORCE INDEX (`idx_uid`) WHERE uid>0
+
+2025/08/13 16:43:51 d:/go_all/go_frame/orm/gorm/6_query.go:120
+[2.664ms] [rows:2] SELECT city,avg(id) as mid FROM `user` GROUP BY `city` HAVING mid>0
+
+2025/08/13 16:43:51 d:/go_all/go_frame/orm/gorm/6_query.go:126
+[0.531ms] [rows:2] SELECT DISTINCT `city` FROM `user`
+
+2025/08/13 16:43:51 d:/go_all/go_frame/orm/gorm/6_query.go:133
+[0.000ms] [rows:1] SELECT count(*) FROM `user` WHERE city=?
+
+2025/08/13 16:51:07 d:/go_all/go_frame/orm/gorm/7_raw_sql.go:12
+[2.121ms] [rows:2] select id,uid,city from user where id>2 and uid>4 limit 3
+
+2025/08/13 16:51:07 d:/go_all/go_frame/orm/gorm/7_raw_sql.go:18
+[0.532ms] [rows:-] select id,uid,city from user where id>? and uid>? limit 3
+
+2025/08/13 16:51:36 d:/go_all/go_frame/orm/gorm/7_raw_sql.go:32
+[1.039ms] [rows:0] update user set degree=? where id=?
+
+2025/08/13 16:51:50 d:/go_all/go_frame/orm/gorm/3_create.go:79
+[info] exec hook BeforeSave
+
+2025/08/13 16:51:50 d:/go_all/go_frame/orm/gorm/3_create.go:84
+[info] exec hook BeforeCreate
+
+2025/08/13 16:51:50 d:/go_all/go_frame/orm/gorm/3_create.go:89
+[info] exec hook AfterCreate
+
+2025/08/13 16:51:50 d:/go_all/go_frame/orm/gorm/3_create.go:94
+[info] exec hook AfterSave
+
+2025/08/13 16:51:50 d:/go_all/go_frame/orm/gorm/8_transaction.go:28
+[9.092ms] [rows:1] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`) VALUES (?,?,?,?,?,?,?)
+
+2025/08/13 16:51:50 d:/go_all/go_frame/orm/gorm/3_create.go:79
+[info] exec hook BeforeSave
+
+2025/08/13 16:51:50 d:/go_all/go_frame/orm/gorm/3_create.go:84
+[info] exec hook BeforeCreate
+
+2025/08/13 16:51:50 d:/go_all/go_frame/orm/gorm/8_transaction.go:35 Error 1062 (23000): Duplicate entry '56877' for key 'user.idx_uid'
+[0.000ms] [rows:0] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`) VALUES (?,?,?,?,?,?,?)
+
+2025/08/13 16:52:26 d:/go_all/go_frame/orm/gorm/3_create.go:79
+[info] exec hook BeforeSave
+
+2025/08/13 16:52:26 d:/go_all/go_frame/orm/gorm/3_create.go:84
+[info] exec hook BeforeCreate
+
+2025/08/13 16:52:26 d:/go_all/go_frame/orm/gorm/3_create.go:89
+[info] exec hook AfterCreate
+
+2025/08/13 16:52:26 d:/go_all/go_frame/orm/gorm/3_create.go:94
+[info] exec hook AfterSave
+
+2025/08/13 16:52:26 d:/go_all/go_frame/orm/gorm/8_transaction.go:28
+[8.501ms] [rows:1] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`) VALUES (?,?,?,?,?,?,?)
+
+2025/08/13 16:55:22 d:/go_all/go_frame/orm/gorm/9_error.go:13
+[9.002ms] [rows:1] SELECT * FROM `user` ORDER BY `user`.`id` LIMIT ?
+
+2025/08/13 16:55:22 d:/go_all/go_frame/orm/gorm/3_create.go:79
+[info] exec hook BeforeSave
+
+2025/08/13 16:55:22 d:/go_all/go_frame/orm/gorm/3_create.go:84
+[info] exec hook BeforeCreate
+
+2025/08/13 16:55:22 d:/go_all/go_frame/orm/gorm/9_error.go:15 Error 1062 (23000): Duplicate entry '6' for key 'user.PRIMARY'
+[1.499ms] [rows:0] INSERT INTO `user` (`uid`,`degree`,`keywords`,`create_time`,`update_time`,`gender`,`city`,`id`) VALUES (?,?,?,?,?,?,?,?)
