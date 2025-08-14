@@ -23,3 +23,5 @@ io---日志框架 性能 zap>slog>logrus   选择上slog,简单不需依赖更�
 database---redis mongodb clickhouse
 
 orm-----orm框架gorm xorm 
+
+web-----web框架:gin  fiber
