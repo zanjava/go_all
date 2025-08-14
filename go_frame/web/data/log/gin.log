@@ -1,0 +1,27 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /favicon.ico              --> main.main.(*RouterGroup).StaticFile.func1 (3 handlers)
+[GIN-debug] HEAD   /favicon.ico              --> main.main.(*RouterGroup).StaticFile.func1 (3 handlers)
+[GIN-debug] GET    /user/text                --> main.text.func1 (3 handlers)
+[GIN-debug] GET    /user/json0               --> main.json0.func1 (3 handlers)
+[GIN-debug] GET    /user/json1               --> main.json1.func1 (3 handlers)
+[GIN-debug] GET    /user/json2               --> main.json2.func1 (3 handlers)
+[GIN-debug] GET    /user/jsonp               --> main.jsonp.func1 (3 handlers)
+[GIN-debug] GET    /user/xml                 --> main.xml.func1 (3 handlers)
+[GIN-debug] GET    /user/yaml                --> main.yaml.func1 (3 handlers)
+[GIN-debug] GET    /user/pb                  --> main.protoBuf.func1 (3 handlers)
+[GIN-debug] GET    /user/html                --> main.html.func1 (3 handlers)
+[GIN-debug] GET    /user/old_page            --> main.redirect.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 127.0.0.1:5678
+[GIN] 2025/08/14 - 00:18:36 | 200 |       650.7µs |       127.0.0.1 | GET      "/user/json2"
+[GIN] 2025/08/14 - 00:20:58 | 200 |            0s |       127.0.0.1 | GET      "/user/pb"
+[GIN] 2025/08/14 - 00:24:54 | 200 |      5.3502ms |       127.0.0.1 | GET      "/user/html"
+[GIN] 2025/08/14 - 00:25:21 | 200 |     51.8065ms |       127.0.0.1 | GET      "/favicon.ico"

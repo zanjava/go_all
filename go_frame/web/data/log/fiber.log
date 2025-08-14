@@ -1,0 +1,6 @@
+2025-08-14 - 11:08:44 | 200 |     24.4263ms |       127.0.0.1 | GET     | /home           
+2025-08-14 - 11:14:00 | 405 |      619.3µs |       127.0.0.1 | GET     | /ping            | Method Not Allowed
+2025-08-14 - 11:29:31 | 200 |            0s |       127.0.0.1 | HEAD    | /ping           
+2025/08/14 12:17:11.752687 proc.go:283: [Info] start fiber
+2025/08/14 12:17:11.759146 hooks.go:140: [Info] route path /home method GET
+2025/08/14 12:17:32.596351 app.go:1219: [Error] Cannot GET /favicon.ico
