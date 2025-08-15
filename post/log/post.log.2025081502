@@ -1,0 +1,36 @@
+time="2025-08-15 02:00:00.001" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:00:26.686" level=INFO source=D:/go_all/post/handler/gin/user.go:66 msg=登录成功 uid=1
+time="2025-08-15 02:00:26.686" level=INFO source=:0 msg="种下cookie jwt"
+time="2025-08-15 02:00:27.035" level=INFO source=D:/go_all/post/handler/gin/user.go:169 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 02:00:29.066" level=INFO source=D:/go_all/post/handler/gin/user.go:169 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 02:00:36.217" level=INFO source=D:/go_all/post/handler/gin/user.go:169 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 02:00:44.901" level=INFO source=D:/go_all/post/handler/gin/user.go:169 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 02:01:06.070" level=INFO source=D:/go_all/post/handler/gin/user.go:66 msg=登录成功 uid=1
+time="2025-08-15 02:01:06.070" level=INFO source=:0 msg="种下cookie jwt"
+time="2025-08-15 02:01:06.460" level=INFO source=D:/go_all/post/handler/gin/user.go:169 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 02:02:00.001" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:03:43.768" level=INFO source=D:/go_all/post/gin_main.go:32 msg="receive term signal interrupt, going to exit"
+time="2025-08-15 02:07:49.853" level=INFO source=D:/go_all/post/database/redis.go:26 msg="connect to redis"
+time="2025-08-15 02:07:49.893" level=INFO source=D:/go_all/post/handler/gin/user.go:177 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 02:07:51.952" level=INFO source=D:/go_all/post/handler/gin/user.go:177 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 02:08:00.008" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:08:03.844" level=INFO source=D:/go_all/post/handler/gin/user.go:66 msg=登录成功 uid=1
+time="2025-08-15 02:08:04.145" level=INFO source=D:/go_all/post/handler/gin/user.go:177 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 02:10:00.001" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:12:00.001" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:14:00.001" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:16:00.002" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:18:00.006" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:20:00.001" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:22:00.002" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:24:00.001" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:26:00.010" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:28:00.009" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:30:00.007" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:32:00.002" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:34:00.005" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:36:00.001" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:38:00.002" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:40:00.002" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:42:00.001" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 02:43:59.074" level=INFO source=D:/go_all/post/gin_main.go:32 msg="receive term signal interrupt, going to exit"

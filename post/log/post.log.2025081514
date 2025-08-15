@@ -1,0 +1,18 @@
+time="2025-08-15 14:19:51.508" level=INFO source=D:/go_all/post/handler/gin/user.go:61 msg=登录成功 uid=1
+time="2025-08-15 14:19:51.868" level=INFO source=D:/go_all/post/handler/gin/user.go:173 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 14:20:00.010" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 14:20:35.052" level=INFO source=D:/go_all/post/handler/gin/user.go:173 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 14:20:35.056" level=INFO source=D:/go_all/post/database/redis.go:26 msg="connect to redis"
+time="2025-08-15 14:20:44.516" level=INFO source=D:/go_all/post/handler/gin/user.go:173 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 14:20:46.648" level=INFO source=D:/go_all/post/handler/gin/user.go:173 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 14:20:49.130" level=INFO source=D:/go_all/post/handler/gin/user.go:173 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 14:21:03.172" level=INFO source=D:/go_all/post/handler/gin/user.go:61 msg=登录成功 uid=1
+time="2025-08-15 14:21:03.496" level=INFO source=D:/go_all/post/handler/gin/user.go:173 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 14:22:00.001" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 14:24:00.005" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 14:26:00.002" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 14:26:28.305" level=INFO source=D:/go_all/post/gin_main.go:32 msg="receive term signal interrupt, going to exit"
+time="2025-08-15 14:26:44.172" level=INFO source=D:/go_all/post/handler/gin/user.go:173 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 14:26:47.993" level=INFO source=D:/go_all/post/handler/gin/user.go:173 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 14:26:51.109" level=INFO source=D:/go_all/post/handler/gin/user.go:173 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 14:27:11.354" level=INFO source=D:/go_all/post/gin_main.go:32 msg="receive term signal interrupt, going to exit"

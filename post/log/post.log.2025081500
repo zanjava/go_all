@@ -1,0 +1,4 @@
+time="2025-08-15 00:25:56.946" level=INFO source=D:/go_all/post/handler/gin/user.go:50 msg=登录成功 uid=1
+time="2025-08-15 00:25:57.307" level=INFO source=D:/go_all/post/handler/gin/user.go:127 msg=GetUserInfo uid=1 name=zgw
+time="2025-08-15 00:26:00.007" level=INFO source=D:/go_all/post/database/gorm/connection.go:72 msg="ping post db"
+time="2025-08-15 00:26:10.822" level=INFO source=D:/go_all/post/gin_main.go:32 msg="receive term signal interrupt, going to exit"

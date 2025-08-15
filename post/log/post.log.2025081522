@@ -1,0 +1,4 @@
+time="2025-08-15 22:00:00.002" level=INFO source=D:/go_all/post/database/xorm/connection.go:61 msg="ping post db"
+time="2025-08-15 22:04:06.371" level=INFO source=D:/go_all/post/gin_main.go:32 msg="receive term signal interrupt, going to exit"
+time="2025-08-15 22:06:47.970" level=INFO source=D:/go_all/post/gin_main.go:32 msg="receive term signal interrupt, going to exit"
+time="2025-08-15 22:22:29.403" level=INFO source=D:/go_all/post/gin_main.go:32 msg="receive term signal interrupt, going to exit"

@@ -1,0 +1,1102 @@
+
+2025/08/14 15:56:20 d:/go_all/post/database/gorm/user.go:17
+[41.686ms] [rows:1] INSERT INTO `user` (`name`,`password`) VALUES ('zgw','e10adc3949ba59abbe56e057f20f883e')
+
+2025/08/14 15:56:20 d:/go_all/post/database/gorm/user.go:17 Error 1062 (23000): Duplicate entry 'zgw' for key 'user.idx_name'
+[4.061ms] [rows:0] INSERT INTO `user` (`name`,`password`) VALUES ('zgw','e10adc3949ba59abbe56e057f20f883e')
+
+2025/08/14 16:03:26 d:/go_all/post/database/gorm/user.go:17
+[14.001ms] [rows:1] INSERT INTO `user` (`name`,`password`) VALUES ('zgw1','e10adc3949ba59abbe56e057f20f883e')
+
+2025/08/14 16:03:26 d:/go_all/post/database/gorm/user.go:17 Error 1062 (23000): Duplicate entry 'zgw' for key 'user.idx_name'
+[3.319ms] [rows:0] INSERT INTO `user` (`name`,`password`) VALUES ('zgw','e10adc3949ba59abbe56e057f20f883e')
+
+2025/08/14 16:17:56 d:/go_all/post/database/gorm/user.go:17
+[21.395ms] [rows:1] INSERT INTO `user` (`name`,`password`) VALUES (?,?)
+
+2025/08/14 16:17:56 d:/go_all/post/database/gorm/user.go:17 Error 1062 (23000): Duplicate entry 'zgw' for key 'user.idx_name'
+[4.524ms] [rows:0] INSERT INTO `user` (`name`,`password`) VALUES (?,?)
+
+2025/08/14 16:31:11 d:/go_all/post/database/gorm/user.go:18 Error 1062 (23000): Duplicate entry 'zgw11' for key 'user.idx_name'
+[17.885ms] [rows:0] INSERT INTO `user` (`name`,`password`) VALUES (?,?)
+
+2025/08/14 16:31:29 d:/go_all/post/database/gorm/user.go:18
+[9.621ms] [rows:1] INSERT INTO `user` (`name`,`password`) VALUES (?,?)
+
+2025/08/14 16:31:29 d:/go_all/post/database/gorm/user.go:18 Error 1062 (23000): Duplicate entry 'zgw' for key 'user.idx_name'
+[1.551ms] [rows:0] INSERT INTO `user` (`name`,`password`) VALUES (?,?)
+
+2025/08/14 21:09:59 D:/go_all/post/database/gorm/user.go:62
+[34.181ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 21:12:57 D:/go_all/post/database/gorm/user.go:62
+[1.465ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 21:14:05 D:/go_all/post/database/gorm/user.go:62
+[1.622ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 21:19:52 D:/go_all/post/database/gorm/user.go:62
+[19.968ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 21:27:58 D:/go_all/post/database/gorm/user.go:62
+[16.455ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 21:29:57 D:/go_all/post/database/gorm/user.go:62
+[16.697ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 22:10:35 D:/go_all/post/database/gorm/user.go:62
+[33.406ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 22:11:13 D:/go_all/post/database/gorm/user.go:18
+[46.972ms] [rows:1] INSERT INTO `user` (`name`,`password`) VALUES (?,?)
+
+2025/08/14 22:11:27 D:/go_all/post/database/gorm/user.go:62
+[7.316ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 22:12:07 D:/go_all/post/database/gorm/user.go:88
+[21.602ms] [rows:1] UPDATE `user` SET `password`=? WHERE id=? and password=?
+
+2025/08/14 22:12:25 D:/go_all/post/database/gorm/user.go:62
+[0.569ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 22:58:59 D:/go_all/post/database/gorm/news.go:86
+[25.256ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 22:58:59 D:/go_all/post/database/gorm/news.go:94
+[1.580ms] [rows:0] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 22:58:59 D:/go_all/post/database/gorm/user.go:50
+[6.924ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 22:59:15 D:/go_all/post/database/gorm/user.go:50
+[0.652ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 22:59:29 D:/go_all/post/database/gorm/user.go:62
+[4.482ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 22:59:29 D:/go_all/post/database/gorm/news.go:86
+[0.849ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 22:59:29 D:/go_all/post/database/gorm/news.go:94
+[0.000ms] [rows:0] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 22:59:30 D:/go_all/post/database/gorm/user.go:50
+[0.510ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 22:59:36 D:/go_all/post/database/gorm/user.go:50
+[0.817ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 22:59:59 D:/go_all/post/database/gorm/user.go:62
+[0.988ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 22:59:59 D:/go_all/post/database/gorm/news.go:86
+[0.231ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 22:59:59 D:/go_all/post/database/gorm/news.go:94
+[0.578ms] [rows:0] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:00:00 D:/go_all/post/database/gorm/user.go:50
+[0.459ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:00:07 D:/go_all/post/database/gorm/user.go:50
+[0.520ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:00:13 D:/go_all/post/database/gorm/news.go:23
+[23.626ms] [rows:1] INSERT INTO `news` (`user_id`,`title`,`article`,`create_time`,`delete_time`) VALUES (?,?,?,?,?)
+
+2025/08/14 23:00:13 D:/go_all/post/database/gorm/news.go:63
+[1.605ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:00:13 D:/go_all/post/database/gorm/user.go:50
+[0.641ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:00:13 D:/go_all/post/database/gorm/news.go:63
+[0.493ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:00:14 D:/go_all/post/database/gorm/user.go:50
+[62.266ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:00:22 D:/go_all/post/database/gorm/news.go:63
+[3.945ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:00:22 D:/go_all/post/database/gorm/news.go:48
+[12.668ms] [rows:1] UPDATE `news` SET `article`=?,`title`=? WHERE id=? and delete_time is null
+
+2025/08/14 23:00:22 D:/go_all/post/database/gorm/news.go:63
+[0.462ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:00:22 D:/go_all/post/database/gorm/user.go:50
+[0.288ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:00:22 D:/go_all/post/database/gorm/news.go:63
+[0.463ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:00:22 D:/go_all/post/database/gorm/user.go:50
+[0.463ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:01:27 D:/go_all/post/database/gorm/news.go:63
+[2.586ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:01:27 D:/go_all/post/database/gorm/user.go:50
+[1.615ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:01:27 D:/go_all/post/database/gorm/news.go:63
+[0.464ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:01:27 D:/go_all/post/database/gorm/user.go:50
+[1.004ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:02:52 D:/go_all/post/database/gorm/news.go:63
+[1.211ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:02:52 D:/go_all/post/database/gorm/news.go:33
+[4.864ms] [rows:1] UPDATE `news` SET `delete_time`=? WHERE id=? and delete_time is null
+
+2025/08/14 23:02:52 D:/go_all/post/database/gorm/news.go:86
+[0.494ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:02:52 D:/go_all/post/database/gorm/news.go:94
+[0.502ms] [rows:0] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:02:52 D:/go_all/post/database/gorm/user.go:50
+[0.511ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:02:57 D:/go_all/post/database/gorm/user.go:50
+[0.542ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:03:04 D:/go_all/post/database/gorm/news.go:23
+[10.748ms] [rows:1] INSERT INTO `news` (`user_id`,`title`,`article`,`create_time`,`delete_time`) VALUES (?,?,?,?,?)
+
+2025/08/14 23:03:04 D:/go_all/post/database/gorm/news.go:63
+[0.500ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:03:04 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:03:04 D:/go_all/post/database/gorm/news.go:63
+[0.559ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:03:04 D:/go_all/post/database/gorm/user.go:50
+[0.964ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:06:45 D:/go_all/post/database/gorm/news.go:86
+[7.975ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:06:45 D:/go_all/post/database/gorm/news.go:94
+[3.635ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:06:45 D:/go_all/post/database/gorm/user.go:50
+[2.094ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:02 D:/go_all/post/database/gorm/user.go:62
+[7.229ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:02 D:/go_all/post/database/gorm/news.go:86
+[0.000ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:07:02 D:/go_all/post/database/gorm/news.go:94
+[1.017ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:07:02 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:03 D:/go_all/post/database/gorm/user.go:50
+[0.532ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:20 D:/go_all/post/database/gorm/user.go:50
+[0.735ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:27 D:/go_all/post/database/gorm/news.go:23
+[7.776ms] [rows:1] INSERT INTO `news` (`user_id`,`title`,`article`,`create_time`,`delete_time`) VALUES (?,?,?,?,?)
+
+2025/08/14 23:07:27 D:/go_all/post/database/gorm/news.go:63
+[0.690ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:07:27 D:/go_all/post/database/gorm/user.go:50
+[0.612ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:28 D:/go_all/post/database/gorm/news.go:63
+[0.308ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:07:28 D:/go_all/post/database/gorm/user.go:50
+[1.085ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:31 D:/go_all/post/database/gorm/news.go:86
+[0.653ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:07:31 D:/go_all/post/database/gorm/news.go:94
+[0.819ms] [rows:2] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:07:31 D:/go_all/post/database/gorm/user.go:50
+[0.519ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:31 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:31 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:34 D:/go_all/post/database/gorm/user.go:50
+[0.490ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:41 D:/go_all/post/database/gorm/news.go:23
+[4.671ms] [rows:1] INSERT INTO `news` (`user_id`,`title`,`article`,`create_time`,`delete_time`) VALUES (?,?,?,?,?)
+
+2025/08/14 23:07:41 D:/go_all/post/database/gorm/news.go:63
+[1.001ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:07:41 D:/go_all/post/database/gorm/user.go:50
+[0.499ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:07:42 D:/go_all/post/database/gorm/news.go:63
+[0.348ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:07:42 D:/go_all/post/database/gorm/user.go:50
+[19.371ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:12 D:/go_all/post/database/gorm/user.go:62
+[9.694ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:12 D:/go_all/post/database/gorm/news.go:86
+[3.893ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:08:12 D:/go_all/post/database/gorm/news.go:94
+[3.758ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:08:12 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:12 D:/go_all/post/database/gorm/user.go:50
+[0.613ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:12 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:12 D:/go_all/post/database/gorm/user.go:50
+[0.550ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:19 D:/go_all/post/database/gorm/user.go:50
+[0.660ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:25 D:/go_all/post/database/gorm/news.go:23
+[7.087ms] [rows:1] INSERT INTO `news` (`user_id`,`title`,`article`,`create_time`,`delete_time`) VALUES (?,?,?,?,?)
+
+2025/08/14 23:08:25 D:/go_all/post/database/gorm/news.go:63
+[1.621ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:08:25 D:/go_all/post/database/gorm/user.go:50
+[0.572ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:25 D:/go_all/post/database/gorm/user.go:50
+[0.502ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:25 D:/go_all/post/database/gorm/news.go:63
+[1.192ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:08:29 D:/go_all/post/database/gorm/news.go:86
+[0.566ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:08:29 D:/go_all/post/database/gorm/news.go:94
+[0.000ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:08:29 D:/go_all/post/database/gorm/user.go:50
+[0.568ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:29 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:29 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:29 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:45 D:/go_all/post/database/gorm/news.go:86
+[0.531ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:08:45 D:/go_all/post/database/gorm/news.go:94
+[2.701ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ? OFFSET ?
+
+2025/08/14 23:08:45 D:/go_all/post/database/gorm/user.go:50
+[0.860ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:45 D:/go_all/post/database/gorm/user.go:50
+[2.986ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:48 D:/go_all/post/database/gorm/news.go:86
+[0.528ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:08:48 D:/go_all/post/database/gorm/news.go:94
+[1.188ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:08:48 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:48 D:/go_all/post/database/gorm/user.go:50
+[0.533ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:48 D:/go_all/post/database/gorm/user.go:50
+[0.206ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:08:48 D:/go_all/post/database/gorm/user.go:50
+[0.571ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:11:29 D:/go_all/post/database/gorm/user.go:62
+[3.111ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:11:29 D:/go_all/post/database/gorm/news.go:86
+[0.563ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:11:29 D:/go_all/post/database/gorm/news.go:94
+[2.690ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:11:29 D:/go_all/post/database/gorm/user.go:50
+[0.535ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:11:29 D:/go_all/post/database/gorm/user.go:50
+[0.506ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:11:29 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:11:29 D:/go_all/post/database/gorm/user.go:50
+[0.638ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:13:31 D:/go_all/post/database/gorm/user.go:62
+[2.348ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:13:31 D:/go_all/post/database/gorm/news.go:86
+[2.728ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:13:31 D:/go_all/post/database/gorm/news.go:94
+[0.474ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:13:31 D:/go_all/post/database/gorm/user.go:50
+[0.500ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:13:31 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:13:31 D:/go_all/post/database/gorm/user.go:50
+[1.072ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:13:32 D:/go_all/post/database/gorm/user.go:50
+[0.487ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:13:35 D:/go_all/post/database/gorm/news.go:63
+[0.730ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:13:35 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:13:35 D:/go_all/post/database/gorm/news.go:63
+[0.458ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:13:35 D:/go_all/post/database/gorm/user.go:50
+[11.665ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:13:40 D:/go_all/post/database/gorm/user.go:50
+[0.665ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:13:59 D:/go_all/post/database/gorm/news.go:63
+[3.206ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:13:59 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:14:00 D:/go_all/post/database/gorm/news.go:63
+[0.490ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:14:01 D:/go_all/post/database/gorm/news.go:63
+[0.485ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:14:01 D:/go_all/post/database/gorm/user.go:50
+[1.240ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:14:01 D:/go_all/post/database/gorm/news.go:63
+[0.543ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:14:02 D:/go_all/post/database/gorm/news.go:63
+[0.509ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:14:02 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:14:02 D:/go_all/post/database/gorm/news.go:63
+[0.249ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:14:03 D:/go_all/post/database/gorm/news.go:63
+[0.592ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:14:03 D:/go_all/post/database/gorm/user.go:50
+[0.371ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:14:03 D:/go_all/post/database/gorm/news.go:63
+[0.507ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:14:05 D:/go_all/post/database/gorm/news.go:86
+[0.668ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:14:05 D:/go_all/post/database/gorm/news.go:94
+[0.362ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:14:05 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:14:05 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:14:05 D:/go_all/post/database/gorm/user.go:50
+[0.501ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:14:09 D:/go_all/post/database/gorm/news.go:63
+[1.002ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:14:09 D:/go_all/post/database/gorm/user.go:50
+[0.207ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:14:09 D:/go_all/post/database/gorm/news.go:63
+[0.284ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/14 23:14:11 D:/go_all/post/database/gorm/news.go:86
+[0.000ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/14 23:14:11 D:/go_all/post/database/gorm/news.go:94
+[0.722ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/14 23:14:11 D:/go_all/post/database/gorm/user.go:50
+[0.319ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:14:11 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/14 23:14:11 D:/go_all/post/database/gorm/user.go:50
+[0.572ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 00:25:56 D:/go_all/post/database/gorm/user.go:62
+[15.937ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 00:25:56 D:/go_all/post/database/gorm/news.go:86
+[2.676ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 00:25:56 D:/go_all/post/database/gorm/news.go:94
+[0.915ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 00:25:56 D:/go_all/post/database/gorm/user.go:50
+[0.761ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 00:25:56 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 00:25:56 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 00:25:57 D:/go_all/post/database/gorm/user.go:50
+[0.830ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:39:08 D:/go_all/post/database/gorm/news.go:86
+[10.172ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 01:39:08 D:/go_all/post/database/gorm/news.go:94
+[2.013ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 01:39:08 D:/go_all/post/database/gorm/user.go:50
+[3.084ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:39:08 D:/go_all/post/database/gorm/user.go:50
+[0.326ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:39:08 D:/go_all/post/database/gorm/user.go:50
+[0.102ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:39:09 D:/go_all/post/database/gorm/user.go:50
+[0.542ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:39:25 D:/go_all/post/database/gorm/user.go:62
+[10.924ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:41:19 D:/go_all/post/database/gorm/user.go:62
+[13.388ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:41:19 D:/go_all/post/database/gorm/news.go:86
+[3.862ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 01:41:19 D:/go_all/post/database/gorm/news.go:94
+[2.792ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 01:41:19 D:/go_all/post/database/gorm/user.go:50
+[1.925ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:41:19 D:/go_all/post/database/gorm/user.go:50
+[0.599ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:41:19 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:42:34 D:/go_all/post/database/gorm/news.go:63
+[3.755ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/15 01:42:34 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:42:34 D:/go_all/post/database/gorm/news.go:63
+[0.572ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/15 01:42:38 D:/go_all/post/database/gorm/news.go:86
+[0.125ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 01:42:38 D:/go_all/post/database/gorm/news.go:94
+[0.182ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 01:42:38 D:/go_all/post/database/gorm/user.go:50
+[0.121ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:42:38 D:/go_all/post/database/gorm/user.go:50
+[0.659ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:42:38 D:/go_all/post/database/gorm/user.go:50
+[0.999ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:42:59 D:/go_all/post/database/gorm/news.go:86
+[0.487ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 01:42:59 D:/go_all/post/database/gorm/news.go:94
+[0.713ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 01:42:59 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:42:59 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:42:59 D:/go_all/post/database/gorm/user.go:50
+[0.504ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:47:20 D:/go_all/post/database/gorm/news.go:86
+[5.660ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 01:47:20 D:/go_all/post/database/gorm/news.go:94
+[1.272ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 01:47:20 D:/go_all/post/database/gorm/user.go:50
+[1.955ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:47:20 D:/go_all/post/database/gorm/user.go:50
+[0.339ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:47:20 D:/go_all/post/database/gorm/user.go:50
+[0.668ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:47:47 D:/go_all/post/database/gorm/user.go:62
+[2.186ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:47:47 D:/go_all/post/database/gorm/news.go:86
+[0.654ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 01:47:47 D:/go_all/post/database/gorm/news.go:94
+[0.563ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 01:47:47 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:47:47 D:/go_all/post/database/gorm/user.go:50
+[1.012ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:47:47 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:49:55 D:/go_all/post/database/gorm/user.go:62
+[6.113ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:49:55 D:/go_all/post/database/gorm/news.go:86
+[12.480ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 01:49:55 D:/go_all/post/database/gorm/news.go:94
+[2.786ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 01:49:55 D:/go_all/post/database/gorm/user.go:50
+[0.882ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:49:55 D:/go_all/post/database/gorm/user.go:50
+[0.462ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:49:55 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:49:56 D:/go_all/post/database/gorm/user.go:50
+[0.488ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:50:06 D:/go_all/post/database/gorm/user.go:50
+[2.258ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:50:21 D:/go_all/post/database/gorm/news.go:23
+[16.121ms] [rows:1] INSERT INTO `news` (`user_id`,`title`,`article`,`create_time`,`delete_time`) VALUES (?,?,?,?,?)
+
+2025/08/15 01:50:21 D:/go_all/post/database/gorm/news.go:63
+[2.512ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/15 01:50:21 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:50:21 D:/go_all/post/database/gorm/news.go:63
+[1.147ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/15 01:50:21 D:/go_all/post/database/gorm/user.go:50
+[0.337ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:50:33 D:/go_all/post/database/gorm/news.go:86
+[5.088ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 01:50:33 D:/go_all/post/database/gorm/news.go:94
+[2.336ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 01:50:33 D:/go_all/post/database/gorm/user.go:50
+[0.510ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:50:33 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:50:33 D:/go_all/post/database/gorm/user.go:50
+[0.552ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:50:34 D:/go_all/post/database/gorm/user.go:50
+[0.576ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:52:09 D:/go_all/post/database/gorm/user.go:62
+[0.521ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:52:09 D:/go_all/post/database/gorm/news.go:86
+[0.000ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 01:52:09 D:/go_all/post/database/gorm/news.go:94
+[0.747ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 01:52:09 D:/go_all/post/database/gorm/user.go:50
+[0.296ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:52:09 D:/go_all/post/database/gorm/user.go:50
+[0.193ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:52:09 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:52:10 D:/go_all/post/database/gorm/user.go:50
+[1.287ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:58:47 D:/go_all/post/database/gorm/user.go:62
+[11.928ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:58:47 D:/go_all/post/database/gorm/news.go:86
+[3.403ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 01:58:47 D:/go_all/post/database/gorm/news.go:94
+[1.945ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 01:58:47 D:/go_all/post/database/gorm/user.go:50
+[2.059ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:58:47 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:58:47 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 01:58:48 D:/go_all/post/database/gorm/user.go:50
+[0.500ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:00:26 D:/go_all/post/database/gorm/user.go:62
+[1.436ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:00:26 D:/go_all/post/database/gorm/news.go:86
+[0.465ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 02:00:26 D:/go_all/post/database/gorm/news.go:94
+[0.698ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 02:00:26 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:00:26 D:/go_all/post/database/gorm/user.go:50
+[0.538ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:00:26 D:/go_all/post/database/gorm/user.go:50
+[0.502ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:00:27 D:/go_all/post/database/gorm/user.go:50
+[0.624ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:00:29 D:/go_all/post/database/gorm/user.go:50
+[0.043ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:00:35 D:/go_all/post/database/gorm/news.go:63
+[1.089ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/15 02:00:35 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:00:36 D:/go_all/post/database/gorm/news.go:63
+[0.395ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/15 02:00:36 D:/go_all/post/database/gorm/user.go:50
+[0.694ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:00:44 D:/go_all/post/database/gorm/user.go:50
+[0.595ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:01:06 D:/go_all/post/database/gorm/user.go:62
+[0.645ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:01:06 D:/go_all/post/database/gorm/news.go:86
+[0.605ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 02:01:06 D:/go_all/post/database/gorm/news.go:94
+[0.446ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 02:01:06 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:01:06 D:/go_all/post/database/gorm/user.go:50
+[0.503ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:01:06 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:01:06 D:/go_all/post/database/gorm/user.go:50
+[0.593ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:07:49 D:/go_all/post/database/gorm/news.go:86
+[6.070ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 02:07:49 D:/go_all/post/database/gorm/news.go:94
+[4.602ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 02:07:49 D:/go_all/post/database/gorm/user.go:50
+[3.420ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:07:49 D:/go_all/post/database/gorm/user.go:50
+[1.472ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:07:49 D:/go_all/post/database/gorm/user.go:50
+[0.484ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:07:49 D:/go_all/post/database/gorm/user.go:50
+[0.556ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:07:51 D:/go_all/post/database/gorm/user.go:50
+[0.813ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:08:03 D:/go_all/post/database/gorm/user.go:62
+[3.176ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:08:03 D:/go_all/post/database/gorm/news.go:86
+[0.465ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 02:08:03 D:/go_all/post/database/gorm/news.go:94
+[0.478ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 02:08:03 D:/go_all/post/database/gorm/user.go:50
+[0.500ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:08:03 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:08:03 D:/go_all/post/database/gorm/user.go:50
+[0.499ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 02:08:04 D:/go_all/post/database/gorm/user.go:50
+[0.516ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 12:27:30 D:/go_all/post/database/gorm/user.go:62
+[12.826ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 12:30:11 D:/go_all/post/database/gorm/user.go:62
+[1.534ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 13:08:08 D:/go_all/post/database/gorm/user.go:62
+[16.371ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 13:12:26 D:/go_all/post/database/gorm/user.go:62
+[3.744ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:19:31 D:/go_all/post/database/gorm/news.go:86
+[9.909ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 14:19:31 D:/go_all/post/database/gorm/news.go:94
+[1.517ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 14:19:31 D:/go_all/post/database/gorm/user.go:50
+[2.835ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:19:31 D:/go_all/post/database/gorm/user.go:50
+[0.305ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:19:31 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:19:51 D:/go_all/post/database/gorm/user.go:62
+[8.020ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:19:51 D:/go_all/post/database/gorm/news.go:86
+[0.774ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 14:19:51 D:/go_all/post/database/gorm/news.go:94
+[0.923ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 14:19:51 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:19:51 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:19:51 D:/go_all/post/database/gorm/user.go:50
+[0.632ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:19:51 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:20:34 D:/go_all/post/database/gorm/news.go:63
+[2.455ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/15 14:20:34 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:20:35 D:/go_all/post/database/gorm/user.go:50
+[1.228ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:20:35 D:/go_all/post/database/gorm/news.go:63
+[0.999ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/15 14:20:44 D:/go_all/post/database/gorm/news.go:86
+[0.698ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 14:20:44 D:/go_all/post/database/gorm/news.go:94
+[0.657ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 14:20:44 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:20:44 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:20:44 D:/go_all/post/database/gorm/user.go:50
+[0.525ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:20:44 D:/go_all/post/database/gorm/user.go:50
+[0.564ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:20:46 D:/go_all/post/database/gorm/user.go:50
+[0.498ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:20:49 D:/go_all/post/database/gorm/user.go:50
+[0.659ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:21:03 D:/go_all/post/database/gorm/user.go:62
+[1.015ms] [rows:1] SELECT * FROM `user` WHERE name=? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:21:03 D:/go_all/post/database/gorm/news.go:86
+[0.835ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 14:21:03 D:/go_all/post/database/gorm/news.go:94
+[0.674ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 14:21:03 D:/go_all/post/database/gorm/user.go:50
+[0.304ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:21:03 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:21:03 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:21:03 D:/go_all/post/database/gorm/user.go:50
+[0.624ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:26:43 D:/go_all/post/database/gorm/news.go:86
+[5.066ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 14:26:43 D:/go_all/post/database/gorm/news.go:94
+[3.579ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 14:26:43 D:/go_all/post/database/gorm/user.go:50
+[2.392ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:26:43 D:/go_all/post/database/gorm/user.go:50
+[0.580ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:26:43 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:26:44 D:/go_all/post/database/gorm/user.go:50
+[0.675ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:26:47 D:/go_all/post/database/gorm/news.go:63
+[0.594ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/15 14:26:47 D:/go_all/post/database/gorm/user.go:50
+[0.215ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:26:47 D:/go_all/post/database/gorm/news.go:63
+[1.345ms] [rows:1] SELECT * FROM `news` WHERE delete_time is null AND `news`.`id` = ? ORDER BY `news`.`id` LIMIT ?
+
+2025/08/15 14:26:47 D:/go_all/post/database/gorm/user.go:50
+[31.101ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:26:50 D:/go_all/post/database/gorm/news.go:86
+[8.145ms] [rows:1] SELECT count(*) FROM `news` WHERE delete_time is null
+
+2025/08/15 14:26:50 D:/go_all/post/database/gorm/news.go:94
+[0.921ms] [rows:3] SELECT * FROM `news` WHERE delete_time is null ORDER BY create_time desc LIMIT ?
+
+2025/08/15 14:26:50 D:/go_all/post/database/gorm/user.go:50
+[0.195ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:26:50 D:/go_all/post/database/gorm/user.go:50
+[0.522ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:26:50 D:/go_all/post/database/gorm/user.go:50
+[0.000ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+
+2025/08/15 14:26:51 D:/go_all/post/database/gorm/user.go:50
+[0.499ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = ? ORDER BY `user`.`id` LIMIT ?
+[xorm] [info]  2025/08/15 21:46:27.364156 PING DATABASE mysql
+[xorm] [info]  2025/08/15 21:46:36.792369 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00] - 14.1593ms
+[xorm] [info]  2025/08/15 21:46:36.794387 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 1.5096ms
+[xorm] [info]  2025/08/15 21:46:36.796527 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 1.6342ms
+[xorm] [info]  2025/08/15 21:46:36.797333 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 504.5µs
+[xorm] [info]  2025/08/15 21:46:36.797998 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10] - 664.4µs
+[xorm] [info]  2025/08/15 21:47:10.469093 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE (name=?) LIMIT 1 [zgw] - 3.8555ms
+[xorm] [info]  2025/08/15 21:47:10.486233 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00] - 748.2µs
+[xorm] [info]  2025/08/15 21:47:10.486740 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 506.6µs
+[xorm] [info]  2025/08/15 21:47:10.487903 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 762.1µs
+[xorm] [info]  2025/08/15 21:47:10.487903 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 21:47:10.487903 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10]
+[xorm] [info]  2025/08/15 21:47:10.774748 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 925.1µs
+[xorm] [info]  2025/08/15 21:51:39.565540 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00] - 1.2456ms
+[xorm] [info]  2025/08/15 21:51:39.566043 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00]
+[xorm] [info]  2025/08/15 21:51:39.566622 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 505.7µs
+[xorm] [info]  2025/08/15 21:51:39.567310 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 508.8µs
+[xorm] [info]  2025/08/15 21:51:39.567508 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10] - 197.9µs
+[xorm] [info]  2025/08/15 21:51:40.154048 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 506.8µs
+[xorm] [info]  2025/08/15 21:51:42.334242 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 531.2µs
+[xorm] [info]  2025/08/15 21:51:54.157442 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 1.0303ms
+[xorm] [info]  2025/08/15 21:52:11.275363 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE (name=?) LIMIT 1 [zgw] - 1.006ms
+[xorm] [info]  2025/08/15 21:52:11.296754 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00] - 3.8798ms
+[xorm] [info]  2025/08/15 21:52:11.298337 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 1.5828ms
+[xorm] [info]  2025/08/15 21:52:11.300813 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 1.8256ms
+[xorm] [info]  2025/08/15 21:52:11.301239 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 176.2µs
+[xorm] [info]  2025/08/15 21:52:11.301498 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10] - 237µs
+[xorm] [info]  2025/08/15 21:52:11.610886 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 242.1µs
+[xorm] [info]  2025/08/15 21:52:15.061842 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 598.2µs
+[xorm] [info]  2025/08/15 21:53:37.740248 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE (name=?) LIMIT 1 [zgw] - 1.7456ms
+[xorm] [info]  2025/08/15 21:53:37.760185 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00] - 569.9µs
+[xorm] [info]  2025/08/15 21:53:37.760798 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 612.6µs
+[xorm] [info]  2025/08/15 21:53:37.761392 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 593.7µs
+[xorm] [info]  2025/08/15 21:53:37.761899 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 507.4µs
+[xorm] [info]  2025/08/15 21:53:37.761962 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10] - 62.9µs
+[xorm] [info]  2025/08/15 21:53:38.018074 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 508.7µs
+[xorm] [info]  2025/08/15 21:53:41.531230 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 496.5µs
+[xorm] [info]  2025/08/15 21:57:14.034227 PING DATABASE mysql
+[xorm] [info]  2025/08/15 21:57:21.226542 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 3.6821ms
+[xorm] [info]  2025/08/15 21:58:09.881277 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE (name=?) LIMIT 1 [zgw] - 1.722ms
+[xorm] [info]  2025/08/15 21:58:09.904601 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00] - 2.2067ms
+[xorm] [info]  2025/08/15 21:58:09.909232 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 3.5033ms
+[xorm] [info]  2025/08/15 21:58:09.910443 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 628.8µs
+[xorm] [info]  2025/08/15 21:58:09.911256 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 812.6µs
+[xorm] [info]  2025/08/15 21:58:09.912107 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10] - 850.9µs
+[xorm] [info]  2025/08/15 21:58:10.187770 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 953.8µs
+[xorm] [info]  2025/08/15 21:58:12.819578 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 486.1µs
+[xorm] [info]  2025/08/15 22:00:00.000337 PING DATABASE mysql
+[xorm] [info]  2025/08/15 22:04:15.696839 PING DATABASE mysql
+[xorm] [info]  2025/08/15 22:04:19.992385 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 7.4135ms
+[xorm] [info]  2025/08/15 22:04:35.836528 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE (name=?) LIMIT 1 [zgw] - 2.0871ms
+[xorm] [info]  2025/08/15 22:04:35.853862 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00] - 3.4049ms
+[xorm] [info]  2025/08/15 22:04:35.856288 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 1.5223ms
+[xorm] [info]  2025/08/15 22:04:35.856288 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:04:35.856817 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:04:35.857342 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10]
+[xorm] [info]  2025/08/15 22:04:36.140557 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 548.4µs
+[xorm] [info]  2025/08/15 22:04:40.238446 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [6 0001-01-01 00:00:00] - 505.7µs
+[xorm] [info]  2025/08/15 22:04:40.238622 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:04:40.503737 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 695.7µs
+[xorm] [info]  2025/08/15 22:04:40.537493 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [6 0001-01-01 00:00:00] - 33.8765ms
+[xorm] [info]  2025/08/15 22:04:57.321286 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00] - 517.9µs
+[xorm] [info]  2025/08/15 22:04:57.321966 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 519.4µs
+[xorm] [info]  2025/08/15 22:04:57.325190 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 3.2236ms
+[xorm] [info]  2025/08/15 22:04:57.325684 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 493.9µs
+[xorm] [info]  2025/08/15 22:04:57.326182 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10] - 497.7µs
+[xorm] [info]  2025/08/15 22:04:57.648812 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 510.2µs
+[xorm] [info]  2025/08/15 22:04:59.432477 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 437.9µs
+[xorm] [info]  2025/08/15 22:05:07.087659 [SQL] INSERT INTO `news` (`user_id`,`title`,`article`,`create_time`,`delete_time`) VALUES (?,?,?,?,?) [1 vvvvvvvvvvv vvvvvvvvvvvxa 2025-08-15 22:05:07 <nil>] - 16.8747ms
+[xorm] [info]  2025/08/15 22:05:07.098188 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [7 0001-01-01 00:00:00] - 509.3µs
+[xorm] [info]  2025/08/15 22:05:07.098950 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:05:07.361823 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [7 0001-01-01 00:00:00] - 540.8µs
+[xorm] [info]  2025/08/15 22:05:07.362457 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 1.155ms
+[xorm] [info]  2025/08/15 22:07:15.255996 PING DATABASE mysql
+[xorm] [info]  2025/08/15 22:13:44.940503 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [7 0001-01-01 00:00:00] - 10.6634ms
+[xorm] [info]  2025/08/15 22:13:44.945268 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 2.6829ms
+[xorm] [info]  2025/08/15 22:13:45.302649 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [7 0001-01-01 00:00:00] - 500.3µs
+[xorm] [info]  2025/08/15 22:13:45.305314 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 639.1µs
+[xorm] [info]  2025/08/15 22:13:57.075155 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE (name=?) LIMIT 1 [zgw] - 869.4µs
+[xorm] [info]  2025/08/15 22:13:57.093312 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00] - 1.0338ms
+[xorm] [info]  2025/08/15 22:13:57.095600 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 1.5479ms
+[xorm] [info]  2025/08/15 22:13:57.096181 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 580.2µs
+[xorm] [info]  2025/08/15 22:13:57.096181 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:13:57.096734 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 553.7µs
+[xorm] [info]  2025/08/15 22:13:57.392852 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 621.9µs
+[xorm] [info]  2025/08/15 22:13:58.938330 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [7 0001-01-01 00:00:00]
+[xorm] [info]  2025/08/15 22:13:58.938928 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 597.6µs
+[xorm] [info]  2025/08/15 22:13:59.231148 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [7 0001-01-01 00:00:00] - 3.8189ms
+[xorm] [info]  2025/08/15 22:13:59.497040 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 268.756ms
+[xorm] [info]  2025/08/15 22:14:05.487387 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [7 0001-01-01 00:00:00] - 3.7295ms
+[xorm] [info]  2025/08/15 22:14:05.523279 [SQL] UPDATE `news` SET `title` = ?, `article` = ? WHERE (id=?) AND (`delete_time`=? OR `delete_time` IS NULL) [vvvvvvvvvvv vvvvvvvvvvvxavvvvvvvvvvvv 7 0001-01-01 00:00:00] - 33.9854ms
+[xorm] [info]  2025/08/15 22:14:05.537456 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [7 0001-01-01 00:00:00] - 679.2µs
+[xorm] [info]  2025/08/15 22:14:05.537688 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:14:05.828324 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [7 0001-01-01 00:00:00] - 418.8µs
+[xorm] [info]  2025/08/15 22:14:05.828859 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 954.5µs
+[xorm] [info]  2025/08/15 22:14:09.955554 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [7 0001-01-01 00:00:00] - 791.6µs
+[xorm] [info]  2025/08/15 22:14:09.962458 [SQL] UPDATE `news` SET `delete_time` = ? WHERE (`delete_time`=? OR `delete_time` IS NULL) AND `id`=? [2025-08-15 22:14:09 0001-01-01 00:00:00 7] - 6.1596ms
+[xorm] [info]  2025/08/15 22:14:09.971324 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00]
+[xorm] [info]  2025/08/15 22:14:09.971922 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 597.8µs
+[xorm] [info]  2025/08/15 22:14:09.971922 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:14:09.972434 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 511.9µs
+[xorm] [info]  2025/08/15 22:14:09.972490 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10]
+[xorm] [info]  2025/08/15 22:14:10.210084 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 582.5µs
+[xorm] [info]  2025/08/15 22:14:17.093868 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [4 0001-01-01 00:00:00] - 914.6µs
+[xorm] [info]  2025/08/15 22:14:17.094464 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10] - 595.9µs
+[xorm] [info]  2025/08/15 22:14:17.379978 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 730.5µs
+[xorm] [info]  2025/08/15 22:14:17.379978 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [4 0001-01-01 00:00:00] - 744.7µs
+[xorm] [info]  2025/08/15 22:14:20.977504 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00]
+[xorm] [info]  2025/08/15 22:14:20.978078 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 573.7µs
+[xorm] [info]  2025/08/15 22:14:20.978078 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:14:20.978078 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:14:20.978643 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10] - 564.9µs
+[xorm] [info]  2025/08/15 22:14:21.330138 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 511.5µs
+[xorm] [info]  2025/08/15 22:14:23.382222 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [5 0001-01-01 00:00:00] - 563.3µs
+[xorm] [info]  2025/08/15 22:14:23.383716 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 664.3µs
+[xorm] [info]  2025/08/15 22:14:23.643322 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:14:23.643919 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [5 0001-01-01 00:00:00] - 626.6µs
+[xorm] [info]  2025/08/15 22:14:26.041336 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [5 0001-01-01 00:00:00] - 1.1166ms
+[xorm] [info]  2025/08/15 22:14:26.045934 [SQL] UPDATE `news` SET `delete_time` = ? WHERE (`delete_time`=? OR `delete_time` IS NULL) AND `id`=? [2025-08-15 22:14:26 0001-01-01 00:00:00 5] - 4.5974ms
+[xorm] [info]  2025/08/15 22:14:26.054900 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00] - 516.3µs
+[xorm] [info]  2025/08/15 22:14:26.055554 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 613.8µs
+[xorm] [info]  2025/08/15 22:14:26.055867 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:14:26.056633 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10] - 765.5µs
+[xorm] [info]  2025/08/15 22:14:26.056633 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10]
+[xorm] [info]  2025/08/15 22:14:26.292727 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 451.2µs
+[xorm] [info]  2025/08/15 22:14:29.818387 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 460.4µs
+[xorm] [info]  2025/08/15 22:14:35.141080 [SQL] INSERT INTO `news` (`user_id`,`title`,`article`,`create_time`,`delete_time`) VALUES (?,?,?,?,?) [1 bbbbbbbbbbbbbbbbb bbbbbbbbbbb 2025-08-15 22:14:35 <nil>] - 5.3284ms
+[xorm] [info]  2025/08/15 22:14:35.156407 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [8 0001-01-01 00:00:00] - 628.8µs
+[xorm] [info]  2025/08/15 22:14:35.156928 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 520.6µs
+[xorm] [info]  2025/08/15 22:14:35.422153 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE `id`=? AND (`delete_time`=? OR `delete_time` IS NULL) LIMIT 1 [8 0001-01-01 00:00:00] - 579.9µs
+[xorm] [info]  2025/08/15 22:14:35.422153 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 579.9µs
+[xorm] [info]  2025/08/15 22:14:38.065754 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 569.8µs
+[xorm] [info]  2025/08/15 22:14:46.768830 [SQL] UPDATE `user` SET `password` = ? WHERE (id=? and password=?) [202cb962ac59075b964b07152d234b70 1 e10adc3949ba59abbe56e057f20f883e] - 8.0108ms
+[xorm] [info]  2025/08/15 22:15:05.028699 [SQL] INSERT INTO `user` (`name`,`password`) VALUES (?,?) [zw e10adc3949ba59abbe56e057f20f883e] - 5.145ms
+[xorm] [info]  2025/08/15 22:15:08.737470 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE (name=?) LIMIT 1 [] - 459.3µs
+[xorm] [info]  2025/08/15 22:15:19.352773 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE (name=?) LIMIT 1 [zgw] - 624.9µs
+[xorm] [info]  2025/08/15 22:15:19.443711 [SQL] SELECT count(*) FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) [0001-01-01 00:00:00] - 295.1µs
+[xorm] [info]  2025/08/15 22:15:19.445503 [SQL] SELECT `id`, `user_id`, `title`, `article`, `create_time`, `delete_time` FROM `news` WHERE (`delete_time`=? OR `delete_time` IS NULL) ORDER BY `create_time` DESC LIMIT 3 [0001-01-01 00:00:00] - 736.7µs
+[xorm] [info]  2025/08/15 22:15:19.447039 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 1.1414ms
+[xorm] [info]  2025/08/15 22:15:19.447039 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1]
+[xorm] [info]  2025/08/15 22:15:19.447626 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [10] - 587.4µs
+[xorm] [info]  2025/08/15 22:15:19.840596 [SQL] SELECT `id`, `name`, `password` FROM `user` WHERE `id`=? LIMIT 1 [1] - 487.6µs
