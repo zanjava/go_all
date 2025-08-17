@@ -1,0 +1,307 @@
+2025-08-17T21:47:01.769+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@22136@0@ha91a08syf"}
+2025-08-17T21:47:01.776+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T21:47:01.776+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T21:47:01.879+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T21:47:02.002+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME  addresses:{host:"localhost"  port:8081}	{"client_id": "DESKTOP-HLU8PKO@22136@0@ha91a08syf"}
+2025-08-17T21:47:02.002+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@22136@0@ha91a08syf"}
+2025-08-17T21:47:02.287+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@22136@0@ha91a08syf
+2025-08-17T21:47:02.288+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@22136@0@ha91a08syf"}
+2025-08-17T21:47:02.777+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T21:47:02.777+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@22136@0@ha91a08syf"}
+2025-08-17T21:47:02.777+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@22136@0@ha91a08syf"}
+2025-08-17T21:47:02.782+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@22136@0@ha91a08syf
+2025-08-17T21:47:02.782+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@22136@0@ha91a08syf"}
+2025-08-17T21:49:34.921+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@15972@0@ha91cjfe0e"}
+2025-08-17T21:49:34.929+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T21:49:34.929+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T21:49:34.947+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T21:49:34.951+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@15972@0@ha91cjfe0e"}
+2025-08-17T21:49:34.952+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@15972@0@ha91cjfe0e"}
+2025-08-17T21:49:35.930+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T21:49:35.930+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@15972@0@ha91cjfe0e"}
+2025-08-17T21:49:35.930+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@15972@0@ha91cjfe0e"}
+2025-08-17T21:49:35.953+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@15972@0@ha91cjfe0e
+2025-08-17T21:49:35.953+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@15972@0@ha91cjfe0e"}
+2025-08-17T21:49:35.953+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@15972@0@ha91cjfe0e
+2025-08-17T21:49:35.953+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@15972@0@ha91cjfe0e"}
+2025-08-17T21:54:35.931+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T21:54:35.931+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@15972@0@ha91cjfe0e"}
+2025-08-17T21:54:35.931+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@15972@0@ha91cjfe0e"}
+2025-08-17T21:54:35.934+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@15972@0@ha91cjfe0e
+2025-08-17T21:54:35.934+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@15972@0@ha91cjfe0e"}
+2025-08-17T21:59:35.570+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@21568@0@ha91mh1dpf"}
+2025-08-17T21:59:35.581+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T21:59:35.581+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T21:59:35.622+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T21:59:35.626+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME  addresses:{host:"localhost"  port:8081}	{"client_id": "DESKTOP-HLU8PKO@21568@0@ha91mh1dpf"}
+2025-08-17T21:59:35.627+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21568@0@ha91mh1dpf"}
+2025-08-17T21:59:36.581+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T21:59:36.581+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@21568@0@ha91mh1dpf"}
+2025-08-17T21:59:36.581+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21568@0@ha91mh1dpf"}
+2025-08-17T21:59:36.626+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21568@0@ha91mh1dpf
+2025-08-17T21:59:36.626+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21568@0@ha91mh1dpf"}
+2025-08-17T21:59:36.626+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21568@0@ha91mh1dpf
+2025-08-17T21:59:36.626+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21568@0@ha91mh1dpf"}
+2025-08-17T22:04:23.491+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@18920@0@ha91r8gj83"}
+2025-08-17T22:04:23.499+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:04:23.499+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:04:23.560+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:04:23.594+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME  addresses:{host:"localhost"  port:8081}	{"client_id": "DESKTOP-HLU8PKO@18920@0@ha91r8gj83"}
+2025-08-17T22:04:23.595+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@18920@0@ha91r8gj83"}
+2025-08-17T22:04:24.499+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:04:24.499+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@18920@0@ha91r8gj83"}
+2025-08-17T22:04:24.499+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@18920@0@ha91r8gj83"}
+2025-08-17T22:04:24.595+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@18920@0@ha91r8gj83
+2025-08-17T22:04:24.595+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@18920@0@ha91r8gj83"}
+2025-08-17T22:04:24.595+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@18920@0@ha91r8gj83
+2025-08-17T22:04:24.595+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@18920@0@ha91r8gj83"}
+2025-08-17T22:04:57.882+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@12108@0@ha91rsxnbv"}
+2025-08-17T22:04:57.889+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:04:57.889+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:04:57.908+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:04:57.914+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME  addresses:{host:"localhost"  port:8081}	{"client_id": "DESKTOP-HLU8PKO@12108@0@ha91rsxnbv"}
+2025-08-17T22:04:57.914+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@12108@0@ha91rsxnbv"}
+2025-08-17T22:04:58.890+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:04:58.890+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@12108@0@ha91rsxnbv"}
+2025-08-17T22:04:58.890+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@12108@0@ha91rsxnbv"}
+2025-08-17T22:04:58.914+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@12108@0@ha91rsxnbv
+2025-08-17T22:04:58.914+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@12108@0@ha91rsxnbv"}
+2025-08-17T22:04:58.914+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@12108@0@ha91rsxnbv
+2025-08-17T22:04:58.914+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@12108@0@ha91rsxnbv"}
+2025-08-17T22:08:31.040+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@22304@0@ha91vbucus"}
+2025-08-17T22:08:31.047+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:08:31.047+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:08:31.065+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:08:31.069+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@22304@0@ha91vbucus"}
+2025-08-17T22:08:31.069+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@22304@0@ha91vbucus"}
+2025-08-17T22:08:31.073+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@22304@0@ha91vbucus
+2025-08-17T22:08:31.073+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@22304@0@ha91vbucus"}
+2025-08-17T22:08:32.047+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:08:32.047+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@22304@0@ha91vbucus"}
+2025-08-17T22:08:32.047+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@22304@0@ha91vbucus"}
+2025-08-17T22:08:32.053+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@22304@0@ha91vbucus
+2025-08-17T22:08:32.053+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@22304@0@ha91vbucus"}
+2025-08-17T22:11:56.646+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@6856@0@ha91yq97sy"}
+2025-08-17T22:11:56.653+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:11:56.653+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:11:56.666+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:11:56.669+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@6856@0@ha91yq97sy"}
+2025-08-17T22:11:56.670+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@6856@0@ha91yq97sy"}
+2025-08-17T22:11:57.655+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:11:57.655+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@6856@0@ha91yq97sy"}
+2025-08-17T22:11:57.655+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@6856@0@ha91yq97sy"}
+2025-08-17T22:11:57.670+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@6856@0@ha91yq97sy
+2025-08-17T22:11:57.670+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@6856@0@ha91yq97sy"}
+2025-08-17T22:11:57.678+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@6856@0@ha91yq97sy
+2025-08-17T22:11:57.678+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@6856@0@ha91yq97sy"}
+2025-08-17T22:16:57.656+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:16:57.656+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@6856@0@ha91yq97sy"}
+2025-08-17T22:16:57.656+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@6856@0@ha91yq97sy"}
+2025-08-17T22:16:57.659+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@6856@0@ha91yq97sy
+2025-08-17T22:16:57.659+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@6856@0@ha91yq97sy"}
+2025-08-17T22:23:40.469+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@23952@0@ha92adal5h"}
+2025-08-17T22:23:40.476+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:23:40.476+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:23:40.502+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:23:40.505+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@23952@0@ha92adal5h"}
+2025-08-17T22:23:40.505+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@23952@0@ha92adal5h"}
+2025-08-17T22:23:40.522+0800	INFO	v5@v5.1.2/client.go:565	start notifyClientTermination	{"client_id": "DESKTOP-HLU8PKO@23952@0@ha92adal5h"}
+2025-08-17T22:23:40.522+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@23952@0@ha92adal5h
+2025-08-17T22:25:23.870+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@3800@0@ha92c2usvb"}
+2025-08-17T22:25:23.876+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:25:23.876+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:25:23.891+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:25:23.894+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@3800@0@ha92c2usvb"}
+2025-08-17T22:25:23.895+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@3800@0@ha92c2usvb"}
+2025-08-17T22:25:23.896+0800	INFO	v5@v5.1.2/client.go:565	start notifyClientTermination	{"client_id": "DESKTOP-HLU8PKO@3800@0@ha92c2usvb"}
+2025-08-17T22:25:23.896+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@3800@0@ha92c2usvb
+2025-08-17T22:25:33.420+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@9824@0@ha92c8jirg"}
+2025-08-17T22:25:33.427+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:25:33.427+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:25:33.448+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:25:33.452+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@9824@0@ha92c8jirg"}
+2025-08-17T22:25:33.452+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@9824@0@ha92c8jirg"}
+2025-08-17T22:25:33.475+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@9824@0@ha92c8jirg"}
+2025-08-17T22:25:33.477+0800	INFO	v5@v5.1.2/client.go:565	start notifyClientTermination	{"client_id": "DESKTOP-HLU8PKO@9824@0@ha92c8jirg"}
+2025-08-17T22:25:33.477+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@9824@0@ha92c8jirg
+2025-08-17T22:26:05.776+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:05.783+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:26:05.783+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:26:05.795+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:26:05.797+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:05.798+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:05.799+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:05.803+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:05.807+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:06.783+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:26:06.783+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:06.783+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:06.798+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@23576@0@ha92crt0ig
+2025-08-17T22:26:06.798+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:06.798+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@23576@0@ha92crt0ig
+2025-08-17T22:26:06.798+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:06.798+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@23576@0@ha92crt0ig
+2025-08-17T22:26:06.798+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:06.798+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@23576@0@ha92crt0ig
+2025-08-17T22:26:06.798+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:06.798+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@23576@0@ha92crt0ig
+2025-08-17T22:26:06.798+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@23576@0@ha92crt0ig"}
+2025-08-17T22:26:32.386+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:32.393+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:26:32.393+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:26:32.405+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:26:32.407+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:32.407+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:32.409+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:32.411+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:32.413+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:33.393+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:26:33.393+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:33.393+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:33.407+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@19148@0@ha92d7nd04
+2025-08-17T22:26:33.407+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:33.407+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@19148@0@ha92d7nd04
+2025-08-17T22:26:33.407+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:33.407+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@19148@0@ha92d7nd04
+2025-08-17T22:26:33.407+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:33.407+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@19148@0@ha92d7nd04
+2025-08-17T22:26:33.407+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:26:33.407+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@19148@0@ha92d7nd04
+2025-08-17T22:26:33.407+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@19148@0@ha92d7nd04"}
+2025-08-17T22:27:05.281+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:05.291+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:27:05.291+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:27:05.302+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:27:05.304+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:05.304+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:05.305+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:05.306+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:05.308+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:06.292+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:27:06.292+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:06.292+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:06.304+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@12672@0@ha92dr8ei0
+2025-08-17T22:27:06.304+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:06.304+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@12672@0@ha92dr8ei0
+2025-08-17T22:27:06.304+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:06.304+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@12672@0@ha92dr8ei0
+2025-08-17T22:27:06.304+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:06.304+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@12672@0@ha92dr8ei0
+2025-08-17T22:27:06.304+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:27:06.304+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@12672@0@ha92dr8ei0
+2025-08-17T22:27:06.304+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@12672@0@ha92dr8ei0"}
+2025-08-17T22:35:07.182+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:07.190+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:35:07.190+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:35:07.279+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:35:07.391+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:07.395+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:07.429+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:07.463+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:07.467+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@9068@0@ha92lq58a4
+2025-08-17T22:35:07.467+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:07.467+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@9068@0@ha92lq58a4
+2025-08-17T22:35:07.468+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:07.472+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:07.481+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@9068@0@ha92lq58a4
+2025-08-17T22:35:07.481+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:07.481+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@9068@0@ha92lq58a4
+2025-08-17T22:35:07.481+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:08.191+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:35:08.191+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:08.191+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:08.195+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@9068@0@ha92lq58a4
+2025-08-17T22:35:08.195+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@9068@0@ha92lq58a4"}
+2025-08-17T22:35:47.703+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:47.711+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:35:47.711+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:35:47.725+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:35:47.727+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:47.727+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:47.729+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:47.731+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:47.733+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:48.712+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:35:48.712+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:48.712+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:48.728+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21904@0@ha92me9q7x
+2025-08-17T22:35:48.728+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:48.728+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21904@0@ha92me9q7x
+2025-08-17T22:35:48.728+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:48.728+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21904@0@ha92me9q7x
+2025-08-17T22:35:48.728+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:48.728+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21904@0@ha92me9q7x
+2025-08-17T22:35:48.728+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:35:48.728+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21904@0@ha92me9q7x
+2025-08-17T22:35:48.728+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21904@0@ha92me9q7x"}
+2025-08-17T22:36:10.682+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:10.688+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:36:10.688+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:36:10.700+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:36:10.703+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:10.703+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:10.705+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:10.707+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:10.709+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:11.689+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:36:11.689+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:11.689+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:11.704+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21316@0@ha92mry8lp
+2025-08-17T22:36:11.704+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:11.704+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21316@0@ha92mry8lp
+2025-08-17T22:36:11.704+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:11.704+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21316@0@ha92mry8lp
+2025-08-17T22:36:11.704+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:11.704+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21316@0@ha92mry8lp
+2025-08-17T22:36:11.704+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:36:11.704+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21316@0@ha92mry8lp
+2025-08-17T22:36:11.704+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21316@0@ha92mry8lp"}
+2025-08-17T22:37:07.217+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:07.224+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:37:07.224+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:37:07.240+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:37:07.242+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:07.243+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:07.244+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:07.245+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21392@0@ha92nplzls
+2025-08-17T22:37:07.245+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:07.246+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21392@0@ha92nplzls
+2025-08-17T22:37:07.246+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:07.247+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:07.248+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21392@0@ha92nplzls
+2025-08-17T22:37:07.248+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:07.248+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:07.250+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21392@0@ha92nplzls
+2025-08-17T22:37:07.250+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:08.224+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:37:08.224+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:08.224+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:37:08.226+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@21392@0@ha92nplzls
+2025-08-17T22:37:08.226+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@21392@0@ha92nplzls"}
+2025-08-17T22:39:57.589+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:57.595+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-17T22:39:57.595+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-17T22:39:57.608+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-17T22:39:57.610+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:57.610+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:57.613+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:57.615+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:57.616+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:58.596+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:39:58.596+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:58.596+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:58.611+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@14024@0@ha92qj1n88
+2025-08-17T22:39:58.611+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:58.611+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@14024@0@ha92qj1n88
+2025-08-17T22:39:58.611+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:58.611+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@14024@0@ha92qj1n88
+2025-08-17T22:39:58.611+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:58.611+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@14024@0@ha92qj1n88
+2025-08-17T22:39:58.611+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:39:58.627+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@14024@0@ha92qj1n88
+2025-08-17T22:39:58.627+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:44:58.597+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-17T22:44:58.597+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:44:58.597+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
+2025-08-17T22:44:58.599+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@14024@0@ha92qj1n88
+2025-08-17T22:44:58.599+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@14024@0@ha92qj1n88"}
