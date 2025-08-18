@@ -1,0 +1,9 @@
+# GoFrame CLI tool configuration.
+gfcli:
+  gen:
+    dao:
+    - link:            "mysql:tester:123456@tcp(127.0.0.1:3306)/test"
+      tables:          "user,login"   # 默认会使用库里面所有的表
+    - link:            "mysql:tester:123456@tcp(127.0.0.1:3306)/post"   # 注意：如果多个库里存在同名的table，则生成的go文件会被后者覆盖
+    
+# gf gen dao --gf.gcfg.file=learn/conf/gen_dao.yaml   根据表生成对应在结构体，在internal/dao和internal/model下

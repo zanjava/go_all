@@ -1,0 +1,9 @@
+2025-08-18 23:35:52.922 [INFO] this is info log
+2025-08-18 23:35:52.938 [ERRO] this is error log 
+Stack:
+1.  main.Logging
+    D:/go_all/go_frame/goframe/log.go:18
+2.  main.main
+    D:/go_all/go_frame/goframe/main.go:5
+
+2025-08-18 23:35:52.938 [INFO] json is coming {"name":"Microsoft","addr":"Redmond"}
