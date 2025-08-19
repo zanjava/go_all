@@ -1,0 +1,5 @@
+time="2025-08-19 22:31:27.712" level=INFO source=d:/go_all/go_frame/lottery/database/redis_connection.go:26 msg="connect to redis"
+time="2025-08-19 22:31:50.989" level=INFO source=d:/go_all/go_frame/lottery/database/redis_connection.go:26 msg="connect to redis"
+time="2025-08-19 22:50:02.541" level=INFO source=d:/go_all/go_frame/lottery/database/redis_connection.go:26 msg="connect to redis"
+time="2025-08-19 22:50:13.357" level=INFO source=d:/go_all/go_frame/lottery/database/redis_connection.go:26 msg="connect to redis"
+time="2025-08-19 22:50:18.664" level=INFO source=d:/go_all/go_frame/lottery/database/redis_connection.go:26 msg="connect to redis"

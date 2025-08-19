@@ -1,0 +1,36 @@
+time="2025-08-20 00:26:41.032" level=INFO source=D:/go_all/go_frame/lottery/database/redis_connection.go:26 msg="connect to redis"
+time="2025-08-20 00:26:41.461" level=ERROR source=D:/go_all/go_frame/lottery/mq/consumer.go:77 msg="receive message failed" code=50001 error="Cannot invoke \"apache.rocketmq.v2.Settings.getSubscription()\" because \"settings\" is null. NullPointerException. org.apache.rocketmq.proxy.grpc.v2.consumer.ReceiveMessageActivity.receiveMessage(ReceiveMessageActivity.java:63)"
+time="2025-08-20 00:26:41.473" level=ERROR source=D:/go_all/go_frame/lottery/mq/consumer.go:77 msg="receive message failed" code=50001 error="Cannot invoke \"apache.rocketmq.v2.Settings.getSubscription()\" because \"settings\" is null. NullPointerException. org.apache.rocketmq.proxy.grpc.v2.consumer.ReceiveMessageActivity.receiveMessage(ReceiveMessageActivity.java:63)"
+time="2025-08-20 00:28:28.768" level=INFO source=D:/go_all/go_frame/lottery/handler/gift.go:63 msg=抽中奖品 用户=1 奖品=7
+time="2025-08-20 00:28:41.753" level=INFO source=D:/go_all/go_frame/lottery/handler/order.go:35 msg=支付成功，临时订单已删除 uid=1 gid=7
+time="2025-08-20 00:28:49.568" level=INFO source=D:/go_all/go_frame/lottery/handler/gift.go:63 msg=抽中奖品 用户=1 奖品=2
+time="2025-08-20 00:28:58.197" level=INFO source=D:/go_all/go_frame/lottery/handler/order.go:58 msg=用户主动放弃支付 uid=1 gid=2
+time="2025-08-20 00:29:00.148" level=INFO source=D:/go_all/go_frame/lottery/handler/gift.go:63 msg=抽中奖品 用户=1 奖品=10
+time="2025-08-20 00:30:14.226" level=INFO source=D:/go_all/go_frame/lottery/handler/order.go:35 msg=支付成功，临时订单已删除 uid=1 gid=10
+time="2025-08-20 00:30:23.060" level=INFO source=D:/go_all/go_frame/lottery/handler/gift.go:63 msg=抽中奖品 用户=1 奖品=4
+time="2025-08-20 00:35:05.724" level=INFO source=D:/go_all/go_frame/lottery/main.go:37 msg="receive term signal interrupt, going to exit"
+time="2025-08-20 00:35:05.725" level=INFO source=D:/go_all/go_frame/lottery/database/mysql_connection.go:76 msg="close GiftDB"
+time="2025-08-20 00:35:05.725" level=INFO source=D:/go_all/go_frame/lottery/database/redis_connection.go:34 msg="close redis"
+time="2025-08-20 00:35:05.725" level=INFO source=D:/go_all/go_frame/lottery/mq/consumer.go:102 msg="stop consumer"
+time="2025-08-20 00:35:05.725" level=INFO source=D:/go_all/go_frame/lottery/mq/producer.go:70 msg="stop producer"
+time="2025-08-20 00:35:23.203" level=INFO source=D:/go_all/go_frame/lottery/database/redis_connection.go:26 msg="connect to redis"
+time="2025-08-20 00:35:23.232" level=ERROR source=D:/go_all/go_frame/lottery/mq/consumer.go:77 msg="receive message failed" code=50001 error="Cannot invoke \"apache.rocketmq.v2.Settings.getSubscription()\" because \"settings\" is null. NullPointerException. org.apache.rocketmq.proxy.grpc.v2.consumer.ReceiveMessageActivity.receiveMessage(ReceiveMessageActivity.java:63)"
+time="2025-08-20 00:35:25.701" level=INFO source=D:/go_all/go_frame/lottery/handler/order.go:35 msg=支付成功，临时订单已删除 uid=1 gid=4
+time="2025-08-20 00:35:31.992" level=INFO source=D:/go_all/go_frame/lottery/handler/gift.go:63 msg=抽中奖品 用户=1 奖品=6
+time="2025-08-20 00:36:53.063" level=INFO source=D:/go_all/go_frame/lottery/main.go:37 msg="receive term signal interrupt, going to exit"
+time="2025-08-20 00:36:53.066" level=INFO source=D:/go_all/go_frame/lottery/database/mysql_connection.go:77 msg="close GiftDB"
+time="2025-08-20 00:36:53.067" level=INFO source=D:/go_all/go_frame/lottery/database/redis_connection.go:34 msg="close redis"
+time="2025-08-20 00:36:53.068" level=INFO source=D:/go_all/go_frame/lottery/mq/consumer.go:102 msg="stop consumer"
+time="2025-08-20 00:36:53.068" level=INFO source=D:/go_all/go_frame/lottery/mq/producer.go:70 msg="stop producer"
+time="2025-08-20 00:37:05.424" level=INFO source=D:/go_all/go_frame/lottery/database/redis_connection.go:26 msg="connect to redis"
+time="2025-08-20 00:37:05.452" level=ERROR source=D:/go_all/go_frame/lottery/mq/consumer.go:77 msg="receive message failed" code=50001 error="Cannot invoke \"apache.rocketmq.v2.Settings.getSubscription()\" because \"settings\" is null. NullPointerException. org.apache.rocketmq.proxy.grpc.v2.consumer.ReceiveMessageActivity.receiveMessage(ReceiveMessageActivity.java:63)"
+time="2025-08-20 00:37:19.482" level=INFO source=D:/go_all/go_frame/lottery/handler/order.go:58 msg=用户主动放弃支付 uid=1 gid=6
+time="2025-08-20 00:37:30.693" level=INFO source=D:/go_all/go_frame/lottery/handler/gift.go:63 msg=抽中奖品 用户=1 奖品=7
+time="2025-08-20 00:37:41.107" level=INFO source=D:/go_all/go_frame/lottery/mq/consumer.go:91 msg=已超时，删除临时订单 uid=1 gid=7
+time="2025-08-20 00:38:27.792" level=INFO source=D:/go_all/go_frame/lottery/handler/gift.go:63 msg=抽中奖品 用户=1 奖品=1
+time="2025-08-20 00:38:35.795" level=INFO source=D:/go_all/go_frame/lottery/handler/gift.go:63 msg=抽中奖品 用户=1 奖品=2
+time="2025-08-20 00:38:46.016" level=INFO source=D:/go_all/go_frame/lottery/mq/consumer.go:91 msg=已超时，删除临时订单 uid=1 gid=2
+time="2025-08-20 00:38:59.399" level=INFO source=D:/go_all/go_frame/lottery/handler/gift.go:63 msg=抽中奖品 用户=1 奖品=8
+time="2025-08-20 00:39:10.058" level=INFO source=D:/go_all/go_frame/lottery/mq/consumer.go:91 msg=已超时，删除临时订单 uid=1 gid=8
+time="2025-08-20 00:39:26.740" level=INFO source=D:/go_all/go_frame/lottery/handler/gift.go:63 msg=抽中奖品 用户=1 奖品=3
+time="2025-08-20 00:39:35.158" level=INFO source=D:/go_all/go_frame/lottery/handler/order.go:58 msg=用户主动放弃支付 uid=1 gid=3

@@ -1,0 +1,81 @@
+
+2025/08/20 00:26:41 D:/go_all/go_frame/lottery/database/gift.go:24
+[13.607ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:28:24 D:/go_all/go_frame/lottery/database/gift.go:24
+[0.498ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:28:28 D:/go_all/go_frame/lottery/database/gift.go:33
+[3.076ms] [rows:1] SELECT * FROM `inventory` WHERE `inventory`.`id` = 7
+
+2025/08/20 00:28:41 D:/go_all/go_frame/lottery/database/order.go:16
+[29.028ms] [rows:1] INSERT INTO `orders` (`gift_id`,`user_id`) VALUES (7,1)
+
+2025/08/20 00:28:48 D:/go_all/go_frame/lottery/database/gift.go:24
+[0.513ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:28:49 D:/go_all/go_frame/lottery/database/gift.go:33
+[0.440ms] [rows:1] SELECT * FROM `inventory` WHERE `inventory`.`id` = 2
+
+2025/08/20 00:28:58 D:/go_all/go_frame/lottery/database/gift.go:24
+[0.438ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:29:00 D:/go_all/go_frame/lottery/database/gift.go:33
+[0.505ms] [rows:1] SELECT * FROM `inventory` WHERE `inventory`.`id` = 10
+
+2025/08/20 00:30:14 D:/go_all/go_frame/lottery/database/order.go:16
+[6.013ms] [rows:1] INSERT INTO `orders` (`gift_id`,`user_id`) VALUES (10,1)
+
+2025/08/20 00:30:21 D:/go_all/go_frame/lottery/database/gift.go:24
+[0.454ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:30:23 D:/go_all/go_frame/lottery/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE `inventory`.`id` = 4
+
+2025/08/20 00:35:23 D:/go_all/go_frame/lottery/database/gift.go:24
+[4.934ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:35:25 D:/go_all/go_frame/lottery/database/order.go:16
+[6.957ms] [rows:1] INSERT INTO `orders` (`gift_id`,`user_id`) VALUES (?,?)
+
+2025/08/20 00:35:29 D:/go_all/go_frame/lottery/database/gift.go:24
+[0.000ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:35:31 D:/go_all/go_frame/lottery/database/gift.go:33
+[1.513ms] [rows:1] SELECT * FROM `inventory` WHERE `inventory`.`id` = ?
+
+2025/08/20 00:37:05 D:/go_all/go_frame/lottery/database/gift.go:24
+[5.152ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:37:19 D:/go_all/go_frame/lottery/database/gift.go:24
+[2.564ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:37:29 D:/go_all/go_frame/lottery/database/gift.go:24
+[0.452ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:37:30 D:/go_all/go_frame/lottery/database/gift.go:33
+[9.559ms] [rows:1] SELECT * FROM `inventory` WHERE `inventory`.`id` = ?
+
+2025/08/20 00:38:11 D:/go_all/go_frame/lottery/database/gift.go:24
+[0.464ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:38:27 D:/go_all/go_frame/lottery/database/gift.go:33
+[0.212ms] [rows:1] SELECT * FROM `inventory` WHERE `inventory`.`id` = ?
+
+2025/08/20 00:38:35 D:/go_all/go_frame/lottery/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE `inventory`.`id` = ?
+
+2025/08/20 00:38:58 D:/go_all/go_frame/lottery/database/gift.go:24
+[0.859ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:38:59 D:/go_all/go_frame/lottery/database/gift.go:33
+[0.883ms] [rows:1] SELECT * FROM `inventory` WHERE `inventory`.`id` = ?
+
+2025/08/20 00:39:20 D:/go_all/go_frame/lottery/database/gift.go:24
+[0.836ms] [rows:10] SELECT * FROM `inventory`
+
+2025/08/20 00:39:26 D:/go_all/go_frame/lottery/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE `inventory`.`id` = ?
+
+2025/08/20 00:39:35 D:/go_all/go_frame/lottery/database/gift.go:24
+[0.842ms] [rows:10] SELECT * FROM `inventory`
