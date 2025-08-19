@@ -31,3 +31,8 @@ post系统-----gorm gin(xorm fiber) redis  mysql
 mq---消息框架 rabbitMQ  kafka  rocketMQ 
 
 my_goframe-----goFrame框架
+
+dependency_injection---依赖注入  wire框架
+
+ioc---golobby IOC框架
+
