@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="./js/my.js"></script>
+    <title>新闻推荐</title>
+</head>
+
+<body>
+    <div align="center" style="display: block; width: 80%; margin: auto;">
+        <span id="list">
+            <table>
+                <tr bgcolor="#FA9862">
+                    <th width="50%">标题</th>
+                    <th width="20%">作者</th>
+                    <th width="30%">发布时间</th>
+                </tr>
+                {{range .data}}
+                <tr>
+                    <td>{{.Title}}</td>
+                    <td>{{.UserId}}</td>
+                    <td>{{.ViewPostTime}}</td>
+                </tr>
+                {{end}}
+            </table>
+        </span>
+    </div>
+</body>
