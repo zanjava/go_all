@@ -1,4 +1,4 @@
-<img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/d5a54a8e-967c-490c-a8d3-10ab9715b9c5" />basic--数据类型和函数
+basic--数据类型和函数
 
 project-prepare --项目开发前准备
 
