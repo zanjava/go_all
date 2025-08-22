@@ -68,3 +68,314 @@
 2025-08-20T00:36:53.068+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@16296@0@habdav1ied
 2025-08-20T00:36:53.068+0800	INFO	v5@v5.1.2/client.go:565	start notifyClientTermination	{"client_id": "DESKTOP-HLU8PKO@16296@1@habdb098sm"}
 2025-08-20T00:36:53.068+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@16296@1@habdb098sm
+2025-08-20T00:37:05.433+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@10448@0@habdcjwfgb"}
+2025-08-20T00:37:05.434+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-20T00:37:05.434+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-20T00:37:05.446+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-20T00:37:05.449+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@10448@0@habdcjwfgb"}
+2025-08-20T00:37:05.449+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@10448@0@habdcjwfgb"}
+2025-08-20T00:37:05.451+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@10448@0@habdcjwfgb
+2025-08-20T00:37:05.451+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@10448@0@habdcjwfgb"}
+2025-08-20T00:37:06.435+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-20T00:37:06.435+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@10448@0@habdcjwfgb"}
+2025-08-20T00:37:06.435+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@10448@0@habdcjwfgb"}
+2025-08-20T00:37:06.436+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@10448@0@habdcjwfgb
+2025-08-20T00:37:06.437+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@10448@0@habdcjwfgb"}
+2025-08-20T00:37:30.668+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@10448@1@habdcyxb96"}
+2025-08-20T00:37:30.668+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-20T00:37:30.668+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-20T00:37:30.681+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-20T00:37:30.684+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@10448@1@habdcyxb96"}
+2025-08-20T00:37:30.684+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@10448@1@habdcyxb96"}
+2025-08-20T00:37:30.687+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@10448@1@habdcyxb96
+2025-08-20T00:37:30.687+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@10448@1@habdcyxb96"}
+2025-08-20T00:37:31.669+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-20T00:37:31.669+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@10448@1@habdcyxb96"}
+2025-08-20T00:37:31.669+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@10448@1@habdcyxb96"}
+2025-08-20T00:37:31.670+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@10448@1@habdcyxb96
+2025-08-20T00:37:31.671+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@10448@1@habdcyxb96"}
+2025-08-20T00:42:06.435+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-20T00:42:06.435+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@10448@0@habdcjwfgb"}
+2025-08-20T00:42:06.435+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@10448@0@habdcjwfgb"}
+2025-08-20T00:42:06.437+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@10448@0@habdcjwfgb
+2025-08-20T00:42:06.437+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@10448@0@habdcjwfgb"}
+2025-08-20T00:42:09.793+0800	INFO	v5@v5.1.2/client.go:565	start notifyClientTermination	{"client_id": "DESKTOP-HLU8PKO@10448@0@habdcjwfgb"}
+2025-08-20T00:42:09.793+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@10448@0@habdcjwfgb
+2025-08-20T00:42:09.793+0800	INFO	v5@v5.1.2/client.go:565	start notifyClientTermination	{"client_id": "DESKTOP-HLU8PKO@10448@1@habdcyxb96"}
+2025-08-20T00:42:09.793+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@10448@1@habdcyxb96
+2025-08-20T00:44:01.136+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@27024@0@habdjfedsq"}
+2025-08-20T00:44:01.137+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-20T00:44:01.137+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-20T00:44:01.146+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-20T00:44:01.148+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@27024@0@habdjfedsq"}
+2025-08-20T00:44:01.149+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@0@habdjfedsq"}
+2025-08-20T00:44:02.137+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-20T00:44:02.137+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@27024@0@habdjfedsq"}
+2025-08-20T00:44:02.137+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@0@habdjfedsq"}
+2025-08-20T00:44:02.150+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@0@habdjfedsq
+2025-08-20T00:44:02.150+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@0@habdjfedsq"}
+2025-08-20T00:44:02.150+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@0@habdjfedsq
+2025-08-20T00:44:02.150+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@0@habdjfedsq"}
+2025-08-20T00:44:26.591+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.591+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-20T00:44:26.591+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-20T00:44:26.601+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-20T00:44:26.612+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.614+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.616+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.616+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.617+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.617+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.620+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.620+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.620+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.620+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.621+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.622+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.623+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.623+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.623+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.623+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.624+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.624+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.623+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.624+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.624+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.624+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.624+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.624+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.625+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.625+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.625+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.641+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.642+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.642+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.642+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.642+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.642+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.644+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.644+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.647+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.647+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.649+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.649+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.649+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.649+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.657+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.657+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.657+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.657+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.657+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.657+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.673+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.673+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.673+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.673+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.673+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.673+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.673+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.673+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.673+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.673+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.674+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.677+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.695+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:26.708+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:26.709+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:27.591+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-20T00:44:27.591+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:27.593+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:44:27.596+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:44:27.596+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:46:22.774+0800	INFO	v5@v5.1.2/client.go:565	start notifyClientTermination	{"client_id": "DESKTOP-HLU8PKO@27024@0@habdjfedsq"}
+2025-08-20T00:46:22.774+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@0@habdjfedsq
+2025-08-20T00:46:22.774+0800	INFO	v5@v5.1.2/client.go:565	start notifyClientTermination	{"client_id": "DESKTOP-HLU8PKO@27024@1@habdjujzc2"}
+2025-08-20T00:46:22.774+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27024@1@habdjujzc2
+2025-08-20T00:46:25.660+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@27408@0@habdltg1t1"}
+2025-08-20T00:46:25.660+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-20T00:46:25.660+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-20T00:46:25.671+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-20T00:46:25.674+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@27408@0@habdltg1t1"}
+2025-08-20T00:46:25.675+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@0@habdltg1t1"}
+2025-08-20T00:46:26.661+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-20T00:46:26.661+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@27408@0@habdltg1t1"}
+2025-08-20T00:46:26.661+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@0@habdltg1t1"}
+2025-08-20T00:46:26.675+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@0@habdltg1t1
+2025-08-20T00:46:26.675+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@0@habdltg1t1"}
+2025-08-20T00:46:26.675+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@0@habdltg1t1
+2025-08-20T00:46:26.675+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@0@habdltg1t1"}
+2025-08-20T00:46:41.166+0800	INFO	v5@v5.1.2/client.go:494	begin to start the rocketmq client	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.166+0800	INFO	v5@v5.1.2/client_manager.go:105	begin to start the client manager
+2025-08-20T00:46:41.166+0800	INFO	v5@v5.1.2/client_manager.go:131	the client manager starts successfully
+2025-08-20T00:46:41.190+0800	INFO	v5@v5.1.2/rpc_client.go:84	create rpc client success, target=localhost:8081
+2025-08-20T00:46:41.196+0800	INFO	v5@v5.1.2/client.go:102	defaultClientSession is startUp! endpoints=scheme:DOMAIN_NAME addresses:{host:"localhost" port:8081}	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.196+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.197+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.198+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.198+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.198+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.206+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.206+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.207+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.207+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.207+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.207+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.207+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.207+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.207+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.207+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.207+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.208+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.208+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.208+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.209+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.210+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.210+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.214+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.215+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.216+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.217+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.217+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.218+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.218+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.218+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.219+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.244+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.253+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.254+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.254+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.254+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.254+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.254+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.259+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.259+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.259+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.259+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.267+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.270+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.270+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.270+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.270+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.270+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.270+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.271+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.271+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.277+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.277+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.277+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.277+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.278+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.278+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.278+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.278+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.279+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.279+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.279+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.279+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:41.281+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:41.281+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:42.167+0800	INFO	v5@v5.1.2/client_manager.go:161	clientManager start syncSettings
+2025-08-20T00:46:42.168+0800	INFO	v5@v5.1.2/client.go:464	start trySyncSettings	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:42.168+0800	INFO	v5@v5.1.2/client.go:489	telemeter to localhost:8081 success	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:46:42.170+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh
+2025-08-20T00:46:42.170+0800	INFO	v5@v5.1.2/client.go:97	Executed command successfully	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:47:20.512+0800	INFO	v5@v5.1.2/client.go:565	start notifyClientTermination	{"client_id": "DESKTOP-HLU8PKO@27408@0@habdltg1t1"}
+2025-08-20T00:47:20.512+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@0@habdltg1t1
+2025-08-20T00:47:20.512+0800	INFO	v5@v5.1.2/client.go:565	start notifyClientTermination	{"client_id": "DESKTOP-HLU8PKO@27408@1@habdm2oejh"}
+2025-08-20T00:47:20.512+0800	INFO	v5@v5.1.2/metric.go:184	metric is off, clientId=DESKTOP-HLU8PKO@27408@1@habdm2oejh

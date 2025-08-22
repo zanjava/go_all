@@ -1,0 +1,46 @@
+2025/08/22 11:50:34.687584 server.go:79: [Info] KITEX: server listen at addr=127.0.0.1:5678
+2025/08/22 11:54:09.373379 default_server_handler.go:275: [Error] KITEX: processing request error, remoteService=, remoteAddr=127.0.0.1:53464, error=read tcp 127.0.0.1:5678->127.0.0.1:53464: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/08/22 12:09:02.961510 server.go:77: [Error] KITEX: server listen failed, addr=127.0.0.1:5678 error=listen tcp 127.0.0.1:5678: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/08/22 12:09:02.968828 server.go:266: [Error] KITEX: server start error: error=listen tcp 127.0.0.1:5678: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/08/22 12:09:02.969370 main.go:39: [Error] listen tcp 127.0.0.1:5678: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/08/22 12:10:03.816409 server_handler.go:400: [Info] KITEX: gRPC GracefulShutdown starts
+2025/08/22 12:10:03.868612 server_handler.go:402: [Info] KITEX: gRPC GracefulShutdown ends
+2025/08/22 12:10:07.872392 server.go:79: [Info] KITEX: server listen at addr=127.0.0.1:5678
+2025/08/22 12:10:11.881419 server.go:280: [Error] KITEX: received error and exit: error=context deadline exceeded
+2025/08/22 12:10:14.883708 server_handler.go:400: [Info] KITEX: gRPC GracefulShutdown starts
+2025/08/22 12:10:14.934550 server_handler.go:402: [Info] KITEX: gRPC GracefulShutdown ends
+2025/08/22 12:10:15.034788 main.go:39: [Error] context deadline exceeded
+2025/08/22 12:11:23.566641 server.go:79: [Info] KITEX: server listen at addr=127.0.0.1:5678
+2025/08/22 12:11:27.576725 server.go:280: [Error] KITEX: received error and exit: error=context deadline exceeded
+2025/08/22 12:11:30.579186 server_handler.go:400: [Info] KITEX: gRPC GracefulShutdown starts
+2025/08/22 12:11:30.629930 server_handler.go:402: [Info] KITEX: gRPC GracefulShutdown ends
+2025/08/22 12:11:30.730135 main.go:39: [Error] context deadline exceeded
+2025/08/22 13:26:18.318049 server.go:79: [Info] KITEX: server listen at addr=127.0.0.1:5678
+2025/08/22 13:26:19.408466 etcd_registry.go:299: [Info] start keepalive lease 694d98d039487a15 for etcd registry
+2025/08/22 13:36:35.250439 default_server_handler.go:275: [Error] KITEX: processing request error, remoteService=, remoteAddr=127.0.0.1:56853, error=read tcp 127.0.0.1:5678->127.0.0.1:56853: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/08/22 13:41:41.790980 etcd_registry.go:216: [Info] stop keep register service kitex/registry-etcd/dqq.math/127.0.0.1:5678
+2025/08/22 13:41:41.790995 server_handler.go:400: [Info] KITEX: gRPC GracefulShutdown starts
+2025/08/22 13:41:41.842459 server_handler.go:402: [Info] KITEX: gRPC GracefulShutdown ends
+2025/08/22 14:18:58.146174 server.go:79: [Info] KITEX: server listen at addr=127.0.0.1:5678
+2025/08/22 14:18:59.159064 etcd_registry.go:299: [Info] start keepalive lease 694d98d039487a3c for etcd registry
+2025/08/22 14:19:25.722953 middle_ware.go:50: [Debug] SubRequest Left 7 Right 5
+2025/08/22 14:19:25.722953 middle_ware.go:78: [Debug] SubResponse Diff 2
+2025/08/22 14:19:25.722953 middle_ware.go:36: [Info] caller service name:  remote address:127.0.0.1:57834 method:Sub use time 0 ms
+2025/08/22 14:19:25.742728 default_server_handler.go:275: [Error] KITEX: processing request error, remoteService=, remoteAddr=127.0.0.1:57834, error=read tcp 127.0.0.1:5678->127.0.0.1:57834: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/08/22 15:11:57.111757 etcd_registry.go:216: [Info] stop keep register service kitex/registry-etcd/dqq.math/127.0.0.1:5678
+2025/08/22 15:11:57.113757 server_handler.go:400: [Info] KITEX: gRPC GracefulShutdown starts
+2025/08/22 15:11:57.166532 server_handler.go:402: [Info] KITEX: gRPC GracefulShutdown ends
+2025/08/22 15:12:13.644945 server.go:79: [Info] KITEX: server listen at addr=127.0.0.1:5678
+2025/08/22 15:12:14.662479 etcd_registry.go:299: [Info] start keepalive lease 694d98d039487aaa for etcd registry
+2025/08/22 15:12:35.213926 middle_ware.go:50: [Debug] SubRequest Left 7 Right 5
+2025/08/22 15:12:35.213926 middle_ware.go:78: [Debug] SubResponse Diff 2
+2025/08/22 15:12:35.213926 middle_ware.go:36: [Info] caller service name:  remote address:127.0.0.1:59149 method:Sub use time 0 ms
+2025/08/22 15:12:35.227351 default_server_handler.go:275: [Error] KITEX: processing request error, remoteService=, remoteAddr=127.0.0.1:59149, error=read tcp 127.0.0.1:5678->127.0.0.1:59149: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/08/22 15:13:49.573241 etcd_registry.go:216: [Info] stop keep register service kitex/registry-etcd/dqq.math/127.0.0.1:5678
+2025/08/22 15:13:49.573241 server_handler.go:400: [Info] KITEX: gRPC GracefulShutdown starts
+2025/08/22 15:13:49.625911 server_handler.go:402: [Info] KITEX: gRPC GracefulShutdown ends
+2025/08/22 15:14:33.252569 server.go:79: [Info] KITEX: server listen at addr=127.0.0.1:5678
+2025/08/22 15:14:34.273812 etcd_registry.go:299: [Info] start keepalive lease 694d98d039487abd for etcd registry
+2025/08/22 15:15:42.090764 etcd_registry.go:216: [Info] stop keep register service kitex/registry-etcd/dqq.math/127.0.0.1:5678
+2025/08/22 15:15:42.090764 server_handler.go:400: [Info] KITEX: gRPC GracefulShutdown starts
+2025/08/22 15:15:42.141644 server_handler.go:402: [Info] KITEX: gRPC GracefulShutdown ends

@@ -1,0 +1,8 @@
+2025/08/22 11:54:09.347785 main.go:30: [Info] 2
+2025/08/22 13:36:35.228954 main.go:40: [Info] 2
+2025/08/22 14:18:57.898820 middle_ware.go:39: [Info] service Math method Sub use time 4 ms
+2025/08/22 14:18:57.905831 main.go:39: [Error] service discovery error: no instance remains for dqq.math
+2025/08/22 14:19:25.724407 middle_ware.go:39: [Info] service Math method Sub use time 6 ms
+2025/08/22 14:19:25.730527 main.go:41: [Info] 2
+2025/08/22 15:12:35.215425 middle_ware.go:39: [Info] service Math method Sub use time 7 ms
+2025/08/22 15:12:35.215425 main.go:117: [Info] 2

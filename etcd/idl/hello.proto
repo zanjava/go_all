@@ -1,0 +1,27 @@
+syntax="proto3";
+
+package idl;
+option go_package="./micro_service/idl;idl";
+
+message LoginRequest{
+    string name = 1;
+    string pass = 2;
+}
+
+message LoginResponse{
+    string token = 1;
+}
+
+message HelloRequest{
+}
+
+message HelloResponse{
+    string greeting = 1;
+}
+
+service HelloService{       // 类比于go语言的接口，定义了一组行为规范，可以有多个实现
+    rpc Login(LoginRequest) returns (LoginResponse);        // rpc(remote process call, 远程过程调用)
+    rpc SayHello(HelloRequest) returns (HelloResponse);
+}
+
+// protoc --go_out=. --go-grpc_out=. --proto_path=./micro_service/idl hello.proto
