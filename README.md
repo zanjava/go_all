@@ -37,3 +37,7 @@ dependency_injection---依赖注入  wire框架
 ioc---golobby IOC框架
 
 lottery----redis+mq+高并发  秒杀系统
+
+kitex---微服务框架kitex 
+
+etcd----类似redis,做服务注册与发现
