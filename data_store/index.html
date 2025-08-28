@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <title>基于区块链的数据存储</title>
+    <style>
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div id="view" style="display: block;">
+            <span>{{.x}}</span>
+            <button onclick="edit();">修改</button>
+        </div>
+        <div id="update" style="display: none;">
+            <input value="{{.x}}" id="x_input"></input>
+            <button onclick="update();">提交</button>
+            <br><span id="msg" style="color: red;"></span>
+        </div>
+    </div>
+    <script>
+        function edit() {
+            document.querySelector("#view").style.display = 'none';
+            document.querySelector("#update").style.display = 'block';
+        };
+        function update() {
+            var n = document.querySelector("#x_input").value;
+            $.ajax({
+                type: "POST",
+                url: "/update",
+                data: { "x": n },
+                success: function (result) {
+                    window.location.replace("/");  // 刷新页面
+                },
+            }).fail(function (result, result1, result2) {
+                $('#msg').html(result.responseText);
+            });
+        };
+    </script>
+</body>

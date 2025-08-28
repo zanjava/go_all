@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script>
+        var account = null;
+        var Storage_Contract = null;
+    </script>
+    <title>基于区块链的数据存储</title>
+    <style>
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div id="view" style="display: block;">
+            <span id="x_span"></span>
+            <button onclick="edit();">修改</button>
+        </div>
+        <div id="update" style="display: none;">
+            <input value="{{.x}}" id="x_input"></input>
+            <button onclick="update();">提交</button>
+            <br><span id="msg" style="color: red;"></span>
+        </div>
+    </div>
+    <script>
+        function edit() {
+            document.querySelector("#x_input").value = $('#x_span').html();
+            document.querySelector("#view").style.display = 'none';
+            document.querySelector("#update").style.display = 'block';
+        };
+        function update() {
+            var n = document.querySelector("#x_input").value;
+            Storage_Contract.methods.setNum(Number(n)).send({//call()不能改变合约的状态，send()可以
+                from: account, //交易发送方
+                // gasPrice: 2000,  //可选，如果你不指定，MetaMask将给出建议值让用户自己确认
+                // gas: 40000,//可选
+                // value: 0,//可选
+            });
+
+            // Metamask还会向你确认费用然后才会合约提交修改请求，所以你立即读取合约，读到的还是原来的值
+            document.querySelector("#view").style.display = 'block';
+            document.querySelector("#update").style.display = 'none';
+            // Storage_Contract.methods.getNum().call({ from: account }).then(function (result) {
+            //     console.log(result);
+            //     $('#x_span').html(result);
+            // });
+        };
+
+        function handleAccountsChanged(accounts) {
+            if (accounts.length === 0) {
+                console.log('Please connect to MetaMask.');
+            } else if (accounts[0] !== account) {
+                account = accounts[0];
+                console.log("当前账户地址：", account);
+            }
+        }
+
+        $(document).ready(function () {
+            ethereum.request({ method: 'eth_requestAccounts' })
+                .then(handleAccountsChanged)
+                .catch((err) => {
+                    if (err.code === 4001) {
+                        console.log('Please connect to MetaMask.');
+                    } else {
+                        console.error("请先安装Metamask插件或使用其他以太坊钱包");
+                    }
+                });
+
+            var contractAddress = "0xdb7b5cFbdF67776797CC36176F331a7730cBEBd8";
+            var contractABI = [
+                {
+                "anonymous": false,
+                "inputs": [
+                    {
+                    "indexed": false,
+                    "internalType": "int256",
+                    "name": "x",
+                    "type": "int256"
+                    }
+                ],
+                "name": "NumChange",
+                "type": "event"
+                },
+                {
+                "inputs": [
+                    {
+                    "internalType": "int256",
+                    "name": "x",
+                    "type": "int256"
+                    }
+                ],
+                "name": "setNum",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+                },
+                {
+                "inputs": [],
+                "name": "getNum",
+                "outputs": [
+                    {
+                    "internalType": "int256",
+                    "name": "",
+                    "type": "int256"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function",
+                "constant": true
+                }
+            ];
+            var data = "608060405234801561001057600080fd5b506101a6806100206000396000f3fe608060405234801561001057600080fd5b5060043610610053576000357c01000000000000000000000000000000000000000000000000000000009004806367e0badb146100585780636a5aa5ec14610076575b600080fd5b610060610092565b60405161006d91906100f7565b60405180910390f35b610090600480360381019061008b9190610143565b61009b565b005b60008054905090565b806000819055507f6f7887f467c8597358ebebd0f0382447df8a8dab9fba4a31d78c0844ec6cb9666000546040516100d391906100f7565b60405180910390a150565b6000819050919050565b6100f1816100de565b82525050565b600060208201905061010c60008301846100e8565b92915050565b600080fd5b610120816100de565b811461012b57600080fd5b50565b60008135905061013d81610117565b92915050565b60006020828403121561015957610158610112565b5b60006101678482850161012e565b9150509291505056fea2646970667358221220b0df357043b76a0fa7ae42c06462a30eb577619f165348450c042169f97eda7064736f6c63430008150033";
+
+            if (typeof web3 !== 'undefined') {
+                web3 = new Web3(ethereum);
+            } else {
+                console.error("请先安装Metamask插件或使用其他以太坊钱包");
+            }
+            Storage_Contract = new web3.eth.Contract(contractABI, contractAddress);
+            Storage_Contract.options.data = data;
+
+            // 监听事件
+            Storage_Contract.events.NumChange().on('data', function (event) {
+                let result = event.returnValues;
+                $('#x_span').html(result.x);
+            });
+
+            Storage_Contract.methods.getNum().call({ from: account }).then(function (result) {
+                console.log(result);
+                $('#x_span').html(result);
+            });
+        }); 
+    </script>
+</body>
