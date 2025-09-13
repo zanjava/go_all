@@ -21,6 +21,7 @@ var (
 
 func ConnectPostDB(confDir, confFile, fileType, logDir string) {
 	viper := util.InitViper(confDir, confFile, fileType)
+	viper.WatchConfig() //监听配置文件的变化
 	user := viper.GetString("post.user")
 	pass := viper.GetString("post.pass")
 	host := viper.GetString("post.host")
